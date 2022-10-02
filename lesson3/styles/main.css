@@ -62,3 +62,13 @@
         list-style: none;
         font-size: 16px;
       }
+    .heme-headline {
+        color: #444;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    hr {
+        width: 980px;
+        color: #444;
+    }
