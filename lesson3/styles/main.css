@@ -10,11 +10,7 @@
     color: #444;
   }
   
-  h1 {
-    margin: 0 0 1em 0;
-  }
-
-  .header, .footer {
+   .header, .footer {
     grid-column: 1 / -1;
     background-color: #444;
     /* needed for the floated layout */
@@ -49,4 +45,11 @@
     margin-right: 350px;
     float: right;
   
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+
   }
