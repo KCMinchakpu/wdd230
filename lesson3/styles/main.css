@@ -23,7 +23,7 @@
   .footer {
     grid-column: 1 / -1;
     background-color: #34282C;
-    height: 150px;
+    height: 90px;
     /* needed for the floated layout */
     clear: none;
   }
@@ -134,15 +134,10 @@ h4 {
         letter-spacing: 2px;
         list-style: none;
         font-size: 14px;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin-top: 40px;
+        margin-bottom: 40px;
       }
-    .heme-headline {
-        color: #444;
-        text-align: left;
-        font-size: 25px;
-    }
-
+    
     hr {
         width: 100%;
         color: #444;
