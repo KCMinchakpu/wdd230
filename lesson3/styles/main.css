@@ -17,6 +17,11 @@
     clear: both;
   }
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   /* make a grid */
 .wrapper {
     max-width: 100%;
