@@ -43,7 +43,12 @@
     margin-top: 10px;
     margin-right: 350px;
     float: right;
-  
+    }
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+
   }
 
   h3 {
