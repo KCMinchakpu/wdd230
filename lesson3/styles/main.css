@@ -62,7 +62,7 @@
   li:last-child {
     border-right: none;
   }
-  a:active {
+  .active {
     background-color: #04AA6D;
   }
   /* make a grid */
