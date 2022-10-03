@@ -41,7 +41,6 @@
     font-size: 60px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 5px;
     margin-right: 350px;
     float: right;
   
@@ -56,8 +55,8 @@
   }
   p {
     color: #444;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
     text-align: justify;
   }
 
