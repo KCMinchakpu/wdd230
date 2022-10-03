@@ -80,7 +80,7 @@
     text-align: center;
     margin-top: 10px;
     margin-right: 350px;
-    float: right;
+    float: inline-end;
     }
   h2 {
     color: #fff;
