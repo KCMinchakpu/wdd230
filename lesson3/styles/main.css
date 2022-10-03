@@ -13,7 +13,7 @@
    .header, .footer {
     grid-column: 1 / -1;
     background-color: #444;
-    height: 170px;
+    height: 200px;
     /* needed for the floated layout */
     clear: both;
   }
