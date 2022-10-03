@@ -14,10 +14,19 @@
     grid-column: 1 / -1;
     background-color: #34282C;
     height: 200px;
+    margin:0;
+    padding:0;
     /* needed for the floated layout */
-    clear: both;
+    clear: none;
   }
-
+  
+  .footer {
+    grid-column: 1 / -1;
+    background-color: #34282C;
+    height: 150px;
+    /* needed for the floated layout */
+    clear: none;
+  }
   
 .flex-container {
   display: flex;
