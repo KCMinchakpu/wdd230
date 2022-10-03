@@ -21,6 +21,7 @@
 .flex-container {
   display: flex;
   background-color: #25383C;
+  width: 100%;
 }
   
   ul {
