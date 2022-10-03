@@ -16,13 +16,18 @@
     /* needed for the floated layout */
     clear: both;
   }
+
+  
+.flex-container {
+  display: flex;
+  background-color: #25383C;
+}
   
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #25383C;
     position: fixed;
     width: 100%;
   }
