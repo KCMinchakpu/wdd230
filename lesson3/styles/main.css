@@ -1,8 +1,10 @@
+$timing: 0.5s;
 
 *, *:before, *:after {
     box-sizing: border-box;
   }
   
+ 
   body {
     margin: 40px;
     font-family: 'Open Sans', 'sans-serif';
@@ -154,3 +156,55 @@ h4 {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
     }
+
+    .color-list {
+      display: flex;
+      flex-direction: row;
+      height: 50vh;
+    }
+    
+    .color {
+      flex: 0 0 20%; /*flex-grow | flex-shrink | flex-basis*/
+      box-shadow: 0 0 30px #424242;
+      padding: 1em;
+      color: white;
+       }
+    
+    .name {
+      font-size: 1.2em;
+    }
+    
+    .details {
+      padding: 0;
+      list-style: none;
+      opacity: 0;
+      }
+    
+    .details li {
+      line-height: 2em;
+    }
+    
+    #sinopia {
+      background-color: #C84C09;
+    }
+    
+    #darksienna {
+      background-color: #420217;
+    }
+    
+    #darklava {
+      background-color: #443627;
+    }
+    
+    #armygreen {
+      background-color: #515B3A;
+    }
+    
+    #kombugreen {
+      background-color:#353D2F;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
