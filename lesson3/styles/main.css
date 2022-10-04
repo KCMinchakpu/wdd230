@@ -159,7 +159,7 @@ h4 {
 
     .color-list {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       height: 50vh;
     }
     
@@ -181,7 +181,7 @@ h4 {
       }
     
     .details li {
-      line-height: 2em;
+      line-height: 1em;
     }
     
     #sinopia {
