@@ -11,15 +11,29 @@
   
   .header {
     background-color: #353D2F;
-    padding-left: 10px 0;
+    padding: 10px 0;
+    
     }
     
     .header img {
         width:160px;
-        height: auto
+        height: auto;
+        padding-top: 10px;
+        padding-left: 10px;
+        
     }
     
     .headings {
         display: flex;
         flex-direction: column;
     }
+    h1 {
+        color: #fff;
+        font-size: 60px;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-right: 350px;
+        float: right;
+        font-family: sans-serif;
+        }
