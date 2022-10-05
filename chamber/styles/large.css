@@ -39,6 +39,9 @@
   
   .header  {
     background-color: #353D2F;
+    height: 200px;
+    margin:0;
+    padding:0;
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both;
