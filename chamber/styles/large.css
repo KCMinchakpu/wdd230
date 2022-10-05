@@ -67,6 +67,8 @@ img {width: 80px}
 .navigation {
 	list-style: none;
 	padding: 0;
+    float: right;
+    background-color: #444;
 }
 .navigation li:first-child {
 	display: block;
