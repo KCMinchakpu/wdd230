@@ -18,9 +18,17 @@
     margin-right: 350px;
     float: right;
     font-family:
-    
-  }
-  
+   }
+   h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    float: right;
+    margin-right: 380px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Playfair Display;
   
   .main {
     
