@@ -9,47 +9,17 @@
     color: #444;
   }
   
-   .header {
-    grid-column: 1 / -1;
+  .header {
     background-color: #353D2F;
-    height: 200px;
-    margin:0;
-    padding-left:10px;
-    padding-right: 10px;
-    /* needed for the floated layout */
-    clear: none;
-  }
-  
-  .footer {
-    grid-column: 1 / -1;
-    background-color: #353D2F;
-    height: 90px;
-    /* needed for the floated layout */
-    clear: none;
-  }
-  
-  h1 {
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-right: 350px;
-    float: right;
-    font-family: sans-serif;
+    padding: 5px 0;
     }
-
-  h2 {
-    color: #fff;
-    text-align: center;
-    margin-top: -80px;
-    margin-bottom: -50px;
-    float: right;
-    margin-right: 380px;
-    font-style: normal;
-    font-weight: bold;
-    font-family: Playfair Display;
-  
-
-
-  }
+    
+    .header img {
+        width:160px;
+        height: auto
+    }
+    
+    .headings {
+        display: flex;
+        flex-direction: column;
+    }
