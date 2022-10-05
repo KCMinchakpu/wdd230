@@ -14,7 +14,7 @@ $timing: 0.5s;
   
    .header, .footer {
     grid-column: 1 / -1;
-    background-color: #14080E;
+    background-color: #353D2F;
     height: 200px;
     margin:0;
     padding:0;
@@ -24,7 +24,7 @@ $timing: 0.5s;
   
   .footer {
     grid-column: 1 / -1;
-    background-color: #34282C;
+    background-color: #353D2F;
     height: 90px;
     /* needed for the floated layout */
     clear: none;
