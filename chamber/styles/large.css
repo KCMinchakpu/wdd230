@@ -1,0 +1,34 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 40px;
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #fff;
+    color: #444;
+  }
+  
+  h1 {
+    
+  }
+
+  .header {
+    grid-column: 1 / -1;
+    background-color: #353D2F;
+    height: 200px;
+    margin:0;
+    padding-left:10px;
+    padding-right: 10px;
+    /* needed for the floated layout */
+    clear: none;
+  }
+  
+  .footer {
+    grid-column: 1 / -1;
+    background-color: #353D2F;
+    height: 90px;
+    /* needed for the floated layout */
+    clear: none;
+  }
+  
