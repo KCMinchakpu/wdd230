@@ -1,48 +1,8 @@
-*, *:before, *:after {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 40px;
-    font-family: 'Open Sans', 'sans-serif';
-    background-color: #fff;
-    color: #444;
-  }
-  
-  .header {
-    background-color: #353D2F;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    }
-    
-    img {
-        width:160px;
-        height: auto;
-        padding-top: 10px;
-        padding-right: 10px;
-        
-    }
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
 
-    .m {
-        font-size: 25px;
-        color: #fff;
-        margin-left: 25px;
-    }
-    
-    .headings {
-        display: flex;
-        flex-direction: column;
-    }
-    h1 {
-        color: #fff;
-        font-size: 40px;
-        text-align: left;
-        margin-top: 10px;
-        margin-bottom: 0;
-        margin-right: 350px;
-        float: right;
-        font-family: sans-serif;
-        }
+    nav ul li a {
+        padding: .5rem 1rem;
+
+    }   
+}
