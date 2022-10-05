@@ -36,7 +36,6 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
-    margin-right: 350px;
     float: right;
     font-family: sans-serif;
     }
@@ -64,6 +63,7 @@ img {width: 100%}
 	padding: 0;
     float: right;
     background-color: #033E3E;
+    width: 80%;
 }
 .navigation li:first-child {
 	display: block;
