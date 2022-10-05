@@ -20,11 +20,11 @@
   
   /* make a grid */
   .wrapper {
-    max-width: 940px;
+    max-width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
   }
   
   .wrapper > * {
