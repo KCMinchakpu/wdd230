@@ -17,7 +17,8 @@ $timing: 0.5s;
     background-color: #353D2F;
     height: 200px;
     margin:0;
-    padding:10px;
+    padding-left:10px;
+    padding-right: 10px;
     /* needed for the floated layout */
     clear: none;
   }
