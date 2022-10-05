@@ -9,11 +9,7 @@
     color: #444;
   }
   
-  h1 {
-    
-  }
-
-  .header {
+   .header {
     grid-column: 1 / -1;
     background-color: #353D2F;
     height: 200px;
@@ -32,3 +28,28 @@
     clear: none;
   }
   
+  h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 350px;
+    float: right;
+    font-family: sans-serif;
+    }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    float: right;
+    margin-right: 380px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Playfair Display;
+  
+
+
+  }
