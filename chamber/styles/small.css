@@ -121,6 +121,4 @@ nav ul.open {display: block}
   .tall-panel {
 	grid-row-end: span 3;
   }
-  .hero {
-   grid-column: span 
-  }
+ 
