@@ -218,13 +218,11 @@ nav ul.open {display: block}
 	text-transform: capitalise;
 	font-weight: lighter;
 	letter-spacing: 2px;
-	border-top-width: 2px solid;
+	border-top-stuyle: solid;
+	border-top-color: gainsboro;
 	padding-bottom: 10px;
 	}
-.update {
-	margin-left: 20px;
-	font-size: 20px;
-}
+
 
 .row {
 	align-content: center
