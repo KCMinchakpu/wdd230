@@ -88,3 +88,39 @@ nav ul.open {display: block}
 	color: gainsboro;
 	padding-top: 20px;
 }
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 20px;
+   /* display: grid;*/
+	grid-gap: 10px;
+  }
+  
+  
+  /* no grid support? */
+  
+  .wrapper {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .wrapper {
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, minmax(200px, 1fr));
+	grid-template-rows: repeat(3, minmax(200px, 1fr))
+  }
+  
+  .panel {
+	/* needed for the flex layout*/
+	margin-left: 5px;
+	margin-right: 5px;
+	flex: 1 1 200px;
+  }
+  
+  .tall-panel {
+	grid-row-end: span 3;
+  }
+  .hero {
+   grid-column: span 
+  }
