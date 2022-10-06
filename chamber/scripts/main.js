@@ -1,4 +1,5 @@
-// JavaScript Document
+// select the elements to manipulate (output to)
+document.getElementById("year").innerHTML = (new Date().toLocaleString());
 
 function toggleMenu() {
 	document.getElementById("primaryNav").classList.toggle("open");
@@ -8,5 +9,3 @@ function toggleMenu() {
 const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
 
-// select the elements to manipulate (output to)
-document.getElementById("year").innerHTML = (new Date().toLocaleString());
