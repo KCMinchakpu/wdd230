@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+	background-color: #420217;
+	padding: 5px 0;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	}
+
+footer {
+	background-color: #420217;
+	padding: 5px 0;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+}
+
+img {
+	width: 80px;
+	height: auto;
+	margin-left: 10px;
+}
+
+.img2 {
+	width: 80px;
+	height: auto;
+	margin-left: 10px;
+}
+
+
+.headings {
+		display: flex;
+		flex-direction: column;
+		color: gainsboro;
+}
+
+nav button {
+		margin: .2rem 2vw;
+		background-color: transparent;
+		border: none;
+		font-size: 2rem;
+		color: gainsboro;
+}
+nav {
+	background-color: #353D2F;
+}
+
+nav ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		display: none;
+		font-size: 20px;
+	}
+
+nav ul li a {
+	display: block;
+	padding: .8rem 2vw;
+	text-decoration: none;
+	color:gainsboro;
+	border-top: 1px solid;
+}
+
+nav ul li.active a {
+	background-color: black;
+}
+
+nav ul li a:hover {
+	background-color: orange;
+}
+
+nav ul.open {display: block}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+.copyright {
+	color: gainsboro;
+	padding-top: 20px;
+}
