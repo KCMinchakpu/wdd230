@@ -7,3 +7,6 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
+
+// select the elements to manipulate (output to)
+document.getElementById("year").innerHTML = (new Date().toLocaleString());
