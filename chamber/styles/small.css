@@ -213,12 +213,13 @@ nav ul.open {display: block}
 	display: flex;
 	flex-direction: row;
 	padding-left: 50px;
-	background-color: #420217;
+	background-color: darkslategray;
 	color: #FFFFFF;
 	text-transform: capitalise;
 	font-weight: lighter;
 	letter-spacing: 2px;
-	border-top-width: 2px;
+	border-top-width: 2px solid;
+	padding-bottom: 10px;
 	}
 .update {
 	margin-left: 20px;
