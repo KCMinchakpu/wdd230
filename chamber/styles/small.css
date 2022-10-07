@@ -43,7 +43,9 @@ img {
 }
 
 .date {
-	
+	border:1px solid;
+	border-color: gainsboro;
+	font-size: 18px;
 
 }
 nav button {
