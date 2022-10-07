@@ -219,7 +219,7 @@ nav ul.open {display: block}
 	display: flex;
 	flex-direction: row;
 	padding-left: 50px;
-	background-color: #444;
+	background-color: black;
 	color: #FFFFFF;
 	text-transform: capitalise;
 	font-weight: lighter;
