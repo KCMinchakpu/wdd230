@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 header {
-	background-color: #420217;
+	background-color: #280050;
 	padding: 5px 0;
 	display: flex;
 	align-items: left;
@@ -15,9 +15,8 @@ header {
 	}
 
 footer {
-	background-color: #420217;
-	padding-bottom: 10px;
-}
+	background-color: #280050;
+	}
 
 img {
 	width: 80px;
@@ -39,13 +38,7 @@ img {
 		color: gainsboro;
 }
 
-.date {
-		displa:flex;
-		flex-direction: row;	
-	    color:gainsboro;
-	float: right;
-		
-}
+
 
 nav button {
 		margin: .2rem 2vw;
@@ -55,7 +48,7 @@ nav button {
 		color: gainsboro;
 }
 nav {
-	background-color: #353D2F;
+	background-color: #cfb991;;
 }
 
 nav ul {
@@ -70,12 +63,13 @@ nav ul li a {
 	display: block;
 	padding: .8rem 2vw;
 	text-decoration: none;
-	color:gainsboro;
+	color:black;
 	border-top: 1px solid;
 }
 
 nav ul li.active a {
-	background-color: black;
+	background-color: orangered;
+	color:white;
 }
 
 nav ul li a:hover {
@@ -90,10 +84,7 @@ nav ul.open {display: block}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-.copyright {
-	color: gainsboro;
-	padding-top: 20px;
-}
+
 
 .wrapper {
   max-width: 100%;
@@ -213,13 +204,12 @@ nav ul.open {display: block}
 	display: flex;
 	flex-direction: row;
 	padding-left: 50px;
-	background-color: darkslategray;
+	background-color: #444;
 	color: #FFFFFF;
 	text-transform: capitalise;
 	font-weight: lighter;
 	letter-spacing: 2px;
-	border-top-stuyle: solid;
-	border-top-color: gainsboro;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	}
 
@@ -227,3 +217,4 @@ nav ul.open {display: block}
 .row {
 	align-content: center
 }
+
