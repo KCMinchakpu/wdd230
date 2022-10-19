@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*40rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 40rem) {
+	img {
+		width: 160px;
+		margin-right: 10px;
+	}
+	.headings h1 {
+		font-size: 2rem;
+		color:#fff;
+		padding-bottom: 0;
+}
+
+	.eliora {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+		margin-left: 10px;
+		color: #fff;
+		font-family: open sans;
+		margin-top: -29px;
+   
+	}
+	
+			
+	header {
+		padding:20px;	}
+	
+	
+	footer {padding:20px}
+
+	nav button {
+		display: none;
+	}
+	
+	nav ul#primaryNav {
+		display: flex;
+		justify-content: flex-start;
+		margin-left: 2vw;
+		border-left: 1px solid white;
+	}
+	
+	nav ul li a {
+		border: none;
+		border-right: 1px solid;
+	}
+	
+} /* end medium */
