@@ -23,3 +23,71 @@ img {
 	height: auto;
 	margin-left: 10px;
 }
+
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    color: gainsboro;
+}
+
+.media {
+padding-top: 10px;
+}
+
+.date {
+border:1px solid;
+border-color: gainsboro;
+font-size: 18px;
+margin-left: 600px;
+margin-top: 100px;
+align-content: center;
+color:gainsboro;
+padding:5px;
+
+}
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: gainsboro;
+
+}
+nav {
+background-color: #cfb991;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    font-size: 20px;
+}
+
+nav ul li a {
+display: block;
+padding: .8rem 2vw;
+text-decoration: none;
+color:black;
+border-top: 1px solid;
+}
+
+nav ul li.active a {
+background-color: orangered;
+color:white;
+}
+
+nav ul li a:hover {
+background-color: orange;
+}
+
+nav ul.open {display: block}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
