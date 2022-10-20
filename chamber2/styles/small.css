@@ -152,11 +152,47 @@ nav ul.open {display: block}
     .address {
         float: center;
         color: gainsboro;
+        font-size: 20px;
     }
 
     .email {
 
         float: right;
         color:gainsboro;
-        margin-right: 50px;
+        margin-right: 250px;
+        margin-top: -90px;
+        font-size: 20px;
     }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        padding: 5px;
+        
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .copyright {
+        margin: 0;
+        border: 1px solid #bbb;
+        padding: 0.5rem;
+        width: 760px;
+        background-color: orange;
+    }
+    
+    #lastModified {
+        text-align: center;
+        font-size: smaller;
+    }
+    
