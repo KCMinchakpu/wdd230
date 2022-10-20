@@ -152,3 +152,9 @@ nav ul.open {display: block}
         float: center;
         color: gainsboro;
     }
+
+    .email {
+
+        float: right;
+        color:gainsboro;
+    }
