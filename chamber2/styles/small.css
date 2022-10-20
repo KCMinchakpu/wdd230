@@ -143,8 +143,6 @@ nav ul.open {display: block}
     }
     
     .img2 {
-        width: auto;
-        height: auto;
         margin-left: 80px;
         float: left;
         margin-right: 150px;
@@ -183,7 +181,7 @@ nav ul.open {display: block}
         justify-content: center;
     }
     
-    .copyright {
+    .kike {
         margin: 0;
         border: 1px solid #bbb;
         padding: 0.5rem;
@@ -194,5 +192,6 @@ nav ul.open {display: block}
     #lastModified {
         text-align: center;
         font-size: smaller;
+        float: right;
     }
     
