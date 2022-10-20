@@ -182,11 +182,7 @@ nav ul.open {display: block}
     }
     
     .kike {
-        margin: 0;
-        border: 1px solid #bbb;
-        padding: 0.5rem;
-        width: 760px;
-        background-color: orange;
+        color: gainsboro;
     }
     
     #lastModified {
