@@ -221,11 +221,10 @@ nav ul.open {display: block}
 
 .hero {
   grid-row-end: span 2;
+	align-content: center;
 }
 
-.hero {
-	background-image: url("../images/wdd230-org.jpg")
-}
+
 /* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
 
 @supports (display: grid) {
