@@ -142,30 +142,4 @@ nav ul.open {display: block}
         margin-left: 10px;
     }
     
-    .img2 {
-        margin-left: 80px;
-        float: left;
-        margin-right: 150px;
-            }
-    .address {
-        float: center;
-        color: gainsboro;
-        font-size: 20px;
-    }
-
-    .email {
-
-        float: right;
-        color:gainsboro;
-        margin-right: 250px;
-        margin-top: -90px;
-        font-size: 20px;
-    }
-
-    .content {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 5px;
-        padding: 5px;
-        
-    }
+    
