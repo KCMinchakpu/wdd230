@@ -169,25 +169,3 @@ nav ul.open {display: block}
         padding: 5px;
         
     }
-
-    * {
-        box-sizing: border-box;
-    }
-    
-    body {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .kike {
-        color: gainsboro;
-    }
-    
-    #lastModified {
-        text-align: center;
-        font-size: smaller;
-        float: right;
-    }
-    
