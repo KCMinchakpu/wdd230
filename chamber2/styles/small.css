@@ -146,4 +146,9 @@ nav ul.open {display: block}
         width: auto;
         height: auto;
         margin-left: 80px;
+        float: left;
             }
+    .address {
+        float: center;
+        color: gainsboro;
+    }
