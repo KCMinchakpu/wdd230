@@ -135,3 +135,16 @@ nav ul.open {display: block}
   footer {
 	background-color: #22272e;
 	}
+
+    img {
+        width: auto;
+        height: auto;
+        margin-left: 10px;
+    }
+    
+    .img2 {
+        width: 90px;
+        height: auto;
+        margin-left: 80px;
+        
+    }
