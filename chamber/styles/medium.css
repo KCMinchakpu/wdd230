@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /*40rem is also 560px when basefont is 16px */
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-device-width: 40rem) {
 	img {
 		width: 160px;
 		margin-right: 10px;
@@ -47,3 +47,4 @@
 	}
 	
 } /* end medium */
+

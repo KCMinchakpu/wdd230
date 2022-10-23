@@ -4,7 +4,42 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+   -webkit-box-sizing: border-box; 
+   box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+display:block;
+margin:10px;
+}
 
 header {
 	background-color: #22272e;
@@ -145,7 +180,9 @@ nav ul.open {display: block}
   grid-row-end: span 2;
 	width: 800px;
 	align-content: center;
-	}
+	background-color: 0;
+		}
+
 .news {
 	
 	width: 800px;
@@ -284,18 +321,9 @@ nav ul.open {display: block}
 	  
   }
   
-  .herodiv {
-	  margin: 10px auto;
+  .hero {
 	  position: relative;
-	  color: #444;
 	  }
-  .herobuja {
-	  color: #24292f;
-	  font-weight: 700px;
-	  font-size: 50px;
-	  text-shadow: 1px 1px 2px pink;
-	  font-family: OpenSans;
-  }
   
   h2 {
 	  margin: 0 0 .5rem;
@@ -304,23 +332,6 @@ nav ul.open {display: block}
   
   p {
 	  margin: 0;
-  }
-  
-  .stats {
-	  position: absolute;
-	  top: 25px;
-	  right: 50px;
-	  background: radial-gradient(#eee, #4567aa);
-	  border: 1px solid #000;
-	  padding: 1.5rem;
-	  box-shadow: 0 0 30px #333;
-	  opacity: 0.8;
-	  margin-top: 50px;
-  }
-  
-  .stats span {
-	  font-style: italic;
-	  font-weight: 700;
   }
   
   
@@ -405,3 +416,12 @@ nav ul.open {display: block}
   
   }
 }
+
+@media only screen and (max-device-width: 980px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+	}
+
+
