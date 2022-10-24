@@ -17,7 +17,7 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 document.querySelector('#lastupdated').textContent = `Last Modification: ${document.lastModified}`;
 
 
-/*Join Us Banner */
+/*Join Us and Meeting Banner */
 const day = new Date();
 const today = day.getDay();
 

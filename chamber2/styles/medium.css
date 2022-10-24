@@ -52,7 +52,7 @@
 	.spotlight3 {
 		display:none;
 	}
-	.joinUs {
+	.join {
 		display: grid;
 		grid-column: 1/-1;
 		grid-row: 4;
@@ -67,7 +67,7 @@
 	}
 	
 
-	.joinUsBtn {
+	.button {
 		font-weight: bold;
 		font-size: 1rem;
 		color: white;
