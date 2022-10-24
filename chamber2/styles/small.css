@@ -34,7 +34,7 @@ body {
 	margin-left: .5rem;
     
     margin-left: 10px;
-	font-family: 'Lora', 'Arial', serif;
+	font-family: 'Lora', 'Arial', san serif; 
 	color: white;
 }
 
@@ -94,13 +94,14 @@ header {
 }
 
 .date {
-	display: block;
+	display:flex;
 	font-size: .8rem;
 	letter-spacing: 2px;
 	text-align: center;
 	/* border: 2px solid blue; */
 	background-color:white; 
 	padding: 10px;
+	margin-top: 20px;
 	margin-right: 15px;
 	margin-left: 15px;
 }
@@ -197,12 +198,11 @@ main section div {
  
 footer {
     display: block;
-    background-color: #11385c;
+    background-color: #24292f;
 	justify-items: center;
 	text-align: center; 
 	color: white;
 	padding: .5rem;
-    background-color: #11385c;
     box-shadow: -1px -1px 10px 10px rgba(63, 65, 63, 0.5);
 	font-family: 'Lora', 'Arial', serif;
 	font-size: 0.8rem;;
