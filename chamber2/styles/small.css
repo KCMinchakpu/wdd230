@@ -1,9 +1,10 @@
 body {
 	padding: 0;
-	margin: 0 auto;
+	margin: 10px;
     font-size: 16px; 
     line-height: 1.5rem;
-	max-width: 1050px;
+	max-width: 100%;
+	max-width: 100%;
     font-family: 'Roboto', 'Arial', serif;
 }
 
@@ -23,6 +24,8 @@ body {
 .logo img {
 	width: 80px;
 	height: auto;
+	margin-right: 20px;
+	margin-left: 100px;
 }
 
 .headings {
@@ -40,21 +43,52 @@ body {
     margin: 0;
 	/* text-shadow: 1px 1px gray; */
 }
-.headings h2 {
+.eliora {
     font-size: 1rem;
     margin: 0;
+	margin-left: 40px;
 }
 
-.social {
-	margin-right: 1.5rem;
+.eliakim {
+	
+	color:orange;
+	text-align: center;
 }
 
-.social img {
-	width: 2rem;
-}
+.fa {
+	display:grid;
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float: right;
+
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+	border: 2px solid;
+	border-color: gainsboro;
+	  margin-right: 50px;
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+	margin-left: 650px;
+	border: 2px solid;
+	border-color: gainsboro;
+  }
 
 header {
-	background-color: #11385c;
+	background-color: #24292f;
 	padding: .8rem 0;	
 	box-shadow: -1px -1px 10px 10px rgba(63, 65, 63, 0.5);	
 }
