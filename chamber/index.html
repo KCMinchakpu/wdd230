@@ -1,117 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Kevin Cross Minchakpu in WDD 230: 
-    Web Frontend Development at Brigham Young University - Idaho"/>
-    <title>WDD 230: W06 Assignment</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/small.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="styles/large.css" media="screen">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" href="favicon.ico">
-
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment portal for Kevin Cross Minchakpu in WDD 230: 
+        Web Frontend Development at Brigham Young University - Idaho"/>
+        <title>WDD 230: W05 and 06 Assignment</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/small.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="styles/large.css" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="favicon.ico">
+    
+    </head>
 <body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <header class="header">
-            <img src="images/abujalogo.png" alt="logo">
-		<section class="headings">
-            <h1>Abuja Municipal</h1>
- 		       <div class="eliora">Chamber of Commerce</div>
-			  </section>
-	  <section class="media">
-	  <a href="#" class="fa fa-facebook"></a>
-       <a href="#" class="fa fa-linkedin"></a>
-		 <p class="date">Today: <span id="datetime"></span></p><script>var dt = new Date();
-document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
-	  </section>
-	</header>
-	<!-- NAVIGATION HERE -->
-    <nav>
-		<button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-			<li><a href="#">Join</a></li> 
-            <li><a href="#">Contact</a></li>    
-        </ul>
-    </nav>
-   <content>
-    <div class="wrapper">
-  <div class="panel">
-	  <p class="event">Abuja Carnival</p>
-	  <p class="event2"> Ethnicy & Diversity</p>
-	  <p class="event3">Join us in the annual Abuja
-Carnival where we celebrate
-our Cultural Diversities and Unity,
-Saturday at 9.00 am <a class="event4" href="#">More info</a></p>
-	  		</div>
-        <div class="hero">
-		 <img src="images/wdd230-org.jpg" alt="hero image" style="width:770px;height:100%;">
-		</div>
-		<div class="panel tall-panel">
-	<div class="flex-container">
-  		<div><p class="cab">Skyline Cab</p>
-			<div class="block">
-     <img src="images/taxi.png" alt="taxi">
-     </div>
-		<p class="cab2">Think of a destination, we take you there</p>
-		</div>
-  		<div>
-		<div><p class="cab">University of Abuja</p>
-			<div class="block">
-     <img src="images/edu.png" alt="acadacap">
-     </div>
-		<p class="cab2">Educating the total man & Woman</p>
-		</div>
-		
-		</div>
-  		<div>Spotlight 3</div>  
-</div>   
-</div>
-  <div class="weather">
-    <div id="idd12a351127c14" a='{"t":"v","v":"1.2","lang":"en","locs":[4223],"ssot":"f","sics":"ds","cbkg":"#00000000","cfnt":"rgba(244,243,243,1)","cprb":"#FFFFFF00","cprf":"rgba(253,252,252,1)","emr":"bool","edy":"bool","eev":"bool","ent":"bool","slfs":21,"slbr":"8","ewc":"bool"}'>Weather Data Source: <a href="https://sharpweather.com/weather_abuja/">forecast for Abuja</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=idd12a351127c14"></script>
-    </div>
-     <div class="panel">
-	 <button class="button">Join Us!</button>
-	  <p class="join">Discover how to join the
-chamber of commerce and how
-it will benefit your
-organization!</p>
-	  </div>
-  <div class="news">News Release</div>
-  </div>
-	</content> 
+    <!-- Main Container -->
+    <header>
+        <div class="meeting">
+            <h2 class="eliakim">Come join us for the chamber meet and greet Wednesday at 10:00 a.m. WAT</h2>
+        </div>
+        <section class="headertop">
+            <div class="logo">
+                <picture>
+                    <img src="images/abujalogo.webp" alt="Logo of Abuja Municipal Chamber of Commerce">
+                </picture>
+                <section class="headings">
+                    <h1>Abuja Municipal</h1>
+                    <h2 class="eliora">Chamber of Commerce</h2>
+                </section>
+            </div>
+            
+            <div class="social">
+                <section class="media">
+                    <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-linkedin"></a>
+            </section>
+				<div>      
+            <p class="date">Today: <span id="datetime"></span></p><script>var dt = new Date();
+					document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
+        </div>
+            </header>
+     <main class="content">
+    
+        <section class="hero">
+            <h3 class="welcome">Welcome to Abuja </h3>
+            <picture class="heroimg">
+                <source media="(min-width: 50%)" srcset="images/wdd230-org_large.webp">
+                <source media="(min-width: 25%)" srcset="images/wdd230-org_medium.webp">
+                <img src="images/wdd230-org_medium.webp" alt="hero image">
+            </picture>
+                    </section>
+        <section class="event">
+            <h3> Abuja Carnival</h3>
+            <p>Ethincity & Diversity</p>
+            <p> Join us in the annual Abuja Carnival where we celebrate our Cultural Diversities and Unity,
+					Saturday at 9.00 am <a class="event4" href="#">More info</a></p>
+        </section>
+        <section class="weather">
+            <h3>Weather</h3>
+                <div id="id05ecd27219386" a='{"t":"v","v":"1.2","lang":"en","locs":[4223],"ssot":"c","sics":"ds","cbkg":"#00000000","cfnt":"rgba(253,215,59,1)","cprb":"#FFFFFF00","cprf":"rgba(237,138,5,1)","emr":"bool","edy":"bool","eev":"bool","ent":"bool","slfs":"22","slbr":"8"}'>Weather Data Source: <a href="https://sharpweather.com/weather_abuja/">https://sharpweather.com/weather_abuja/</a></div><script async src="https://static1.sharpweather.com/widgetjs/?id=id05ecd27219386"></script></div>
+                <div class="weather-bottom">  
+                  <p>Speed: <span class="v"></span></p>
+                  <p>Wind Chill: <span class="wind"></span></p>
+                </div>
+            </section>
+        <section class="news">
+            <h3>News Release</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas molestias maxime illo quam reiciendis neque labore! Dolor quia in beatae fugiat nulla? Quisquam praesentium beatae fuga architecto earum ut nobis!</p>
+        </section>
+        
+        <section class="join">
+            <button class="button"><h4>Join Us!</h4></button>
+
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
+        </section>
+        <section class="spotlight">
+            <div class="spotligh1">
+                <h3>Skyline Cab</h3>
+                <picture>
+                    <img src="images/taxi.png" alt="picture of a taxi">
+                </picture>
+
+                <p class="spotSlogan">"Think of a destination, we take you there!"</p>
+                <div class="spotContact">uber@skylinecab.com<br>+234(0)8068-1332-69</div>
+            </div>        
+            <div class="spotlight2">
+                <h3>University of Abuja</h3>
+                <picture>
+                    <img src="images/edu.png" alt="picture of academic cap and diploma">
+                </picture>
+
+                <p class="unibuja">Educating the total man & Woman</p>
+                <div class="spotContact">registrar@unibuja.edu.ng<br>+234(0)8036-3838-66</div>
+            </div>
+            <div class="spotlight3">
+                <h3>Abuja Millennium Park</h3>
+                <picture>
+                    <img src="images/park.png" alt="picture of a pencil">
+                </picture>
+
+                <p class="spotSlogan">All work without play.....!</p>
+                <div class="spotContact">abujamillenniumpark.com<br>+234(0)8068-1332-69</div>
+            </div>
+        </section>
+    </main>     
+<!-- Main Container Ends -->		
+
+			<!-- Footer Container -->
 <footer>
-    <!-- Footer Section -->
-  <div class="row">
-  <div class="img2">
-    <img src="images/abujalogo.png" alt="logo">
-      </div>
-  <div class="address">
-    <p><strong>Abuja Municipal Chamber of Commerce</strong><br> 38 Accra Street, Wuse Zone 5<br> Abuja, Nigeria</p>
-  </div>
-<div class="email">
-     <p>info@amcc.com.ng <br>
-+234 (0)8068-1332-69<br></p>
-  </div>
-</div>
-</footer>
-  <!-- Copyrights Section -->
-  <div class="copyright">&copy;2022 WDD 230. 
-         Designed by Kevin Cross Minchakpu. 
-             WDD 230-W02 Week 04 Assignment. Last updated on:<span id="year"></span>
-        <script type="text/javascript" src="scripts/main.js"></script>
-	
-	</div>
-	</div>
-<!-- Main Container Ends -->
-  </body>
+        <section class="logofooter">
+            <picture>
+                <img src="images/abujalogo.webp" alt ="Tradition Chamber of Commercer logo">
+            </picture>
+        </section>
+        <section  class="location">
+            <div>Abuja Municpal Chamber of Commerce</div>
+            <div>45 Accra Street, Wuse Zone 5, Abuja 950002</div>
+        </section>
+        <section class="contact">
+            <div>info@amcc.com</div>
+            <div>+234(0)8068-1332-69</div>
+            <div><a href="https://goo.gl/maps/NjH6ai9eiHeP6eoo6"><img src="images/amcc.png" alt="Abuja Municipal chamber location"></a>Location Map</div>
+        </section>
+        <section class="author">   
+            <div>&copy; <span id="year"></span> Abuja Municapl Chamber of Commerce | Kevin Cross Minchakpu | WDD230 Project | <span id="lastupdated"></span></div>
+        </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
 </html>

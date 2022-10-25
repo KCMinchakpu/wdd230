@@ -1,50 +1,111 @@
-@charset "utf-8";
-/* CSS Document */
-
-/*40rem is also 560px when basefont is 16px */
-@media only screen and (min-device-width: 40rem) {
-	img {
-		width: 160px;
-		margin-right: 10px;
+/*35rem is also 560px when basefont is 16px*/
+@media only screen and (min-width: 35em) {
+	header img {
+		width: 100%;
 	}
+
 	.headings h1 {
 		font-size: 2rem;
-		color:#fff;
-		padding-bottom: 0;
-}
+		margin: 0;
+	}
 
-	.eliora {
+	.m {
 		letter-spacing: 1.5pt;
-		font-size: larger;
-		margin-left: 10px;
-		color: #fff;
-		font-family: open sans;
-		margin-top: -29px;
-   
+		font-size: 0.9rem;
 	}
-	
-			
-	header {
-		padding:20px;	}
-	
-	
-	footer {padding:20px}
 
-	nav button {
-		display: none;
-	}
 	
-	nav ul#primaryNav {
+	/* Hamburger Button Styling */
+
+	nav ul.open {
 		display: flex;
-		justify-content: flex-start;
-		margin-left: 2vw;
-		border-left: 1px solid white;
 	}
-	
+
 	nav ul li a {
 		border: none;
-		border-right: 1px solid;
+	}
+
+		
+	/*Main section styling*/
+	main {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: .8rem;
+	}
+	main section{
+		margin-bottom: 0;
 	}
 	
-} /* end medium */
+	.hero {
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+	.news {
+		grid-column: 1/-1;
+		grid-row: 2;
+	}
+	.spotlight {
+		grid-auto-flow: column;
+		grid-column: 1/-1;
+		grid-row: 3;
+	}
+	.spotlight3 {
+		display:none;
+	}
+	.joinUs {
+		display: grid;
+		grid-column: 1/-1;
+		grid-row: 4;
+	}
+	.event {
+		grid-column: 1/4;
+		grid-row: 5;
+	}
+	.weather {
+		grid-column: 4/5;
+		grid-row: 5;
+	}
+	
 
+	.joinUsBtn {
+		font-weight: bold;
+		font-size: 1rem;
+		color: white;
+		margin: 1rem;
+		display: block;
+		border-radius: 20px;
+		border: none;
+		background-color:#42b3ab;
+		color: white;
+		font-style: italic;
+	}
+
+
+	/*Footer*/
+	footer {
+		display: grid; 
+		grid-template-columns: 25% 50% 25%;
+		padding: 10px;
+	
+	}
+	.logofooter{
+		margin-left: 100px;
+		margin-top: 5px;
+		margin-bottom: 20px;
+
+	}
+	.location{
+		text-align: left;
+		margin-top: 20px;
+		margin-right: 100px;
+	}
+	.contact{
+		margin-top: 15px;
+
+	}
+
+	.author {
+		grid-column: 1/-1;
+		grid-row: 2;
+	}
+}
