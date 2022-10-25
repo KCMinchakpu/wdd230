@@ -9,7 +9,8 @@ x.onclick = toggleMenu;
 
 /*JS for date */
 
-document.querySelector(".date").textContent = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(new Date());
+document.getElementById("year").innerHTML = (new Date().toLocaleString());
+
 
 
 /*Last Modified */
