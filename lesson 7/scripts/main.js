@@ -1,3 +1,15 @@
+// get all images with data-src attribute
+
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+const loadImages = (image) => {
+  image.setAttribute("src", image.getAttribute("data-src"));
+  image.onload = () => {
+    image.removeAttribute("data-src");
+  };
+};
+
+// first check to see if intersection observer is supported
+
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver((items, observer) => {
     items.forEach((item) => {
