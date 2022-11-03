@@ -425,3 +425,31 @@ p1 {
   padding-left: 20px;
 	font-size: 20px;
 	text-align: justify;}
+	  
+header p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+  margin-top: -0.5em;
+  text-transform: uppercase; }
+
+header.major > :last-child {
+  border-bottom: solid 3px #f56a6a;
+  display: inline-block;
+  margin: 0 0 2em 0;
+  padding: 0 0.75em 0.5em 0; }
+
+header.main > :last-child {
+  margin: 0 0 1em 0; }
+
+.buttonex {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	  }}
