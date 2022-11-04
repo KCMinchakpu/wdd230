@@ -66,3 +66,88 @@ figcaption {
     color: #444;
     font-size: 20px;
   }
+
+  /*----------- FORM --------------*/
+form fieldset {
+  margin: 2rem auto;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+width: 94%;
+/* display: block; */
+}
+
+form legend {
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  /* color: #42b3ab; */
+  font-size: .8rem;
+}
+
+form label.top input {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;  
+}
+form label.sbs:hover {
+background-color: white;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #550A35;
+  color: white;
+  border-radius: 0.5rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 1rem 5%;
+  width: 100%;
+  max-width: 15rem;
+}
+
+form label.top input:required {
+  border-left: solid 6px #C04000;
+}
+
+form label.top input:required:valid {
+  border-left: solid 6px #033E3E;
+}
+
+form .info2{
+font-size: .8rem;
+}
+
+main.joinForm {
+max-width: 64rem;
+margin: 1rem auto;
+background-color: gray;
+display: block;
+
+}
+main.joinForm h2{
+text-align: center;
+font-size: 1.2em;
+}
+
+form textarea {
+font-size: 1rem;
+padding: 10px;
+}
