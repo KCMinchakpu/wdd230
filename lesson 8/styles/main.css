@@ -1,0 +1,55 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+  }
+  body {
+    text-align: center;
+  }
+
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+
+  }
+  
+  td, th {
+    border: 1px solid #444;
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: #151B54;
+  }
+
+  .title {
+    background-color: #033E3E;
+  }
+
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgba(232, 236, 240, 0.737);
+  }
+  
+   #highlight {
+    background-color: rgba(1, 23, 41, 0.737);
+  }
+
+figcaption {
+    padding: 5px;
+}
+
+@media only screen and (min-width: 35em) {
+	html {
+		font-size: 1.5rem;
+    }
+  }
