@@ -22,12 +22,13 @@ html {
   th {
     background-color: #151B54;
     color:gainsboro;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .title {
     background-color: #033E3E;
     color:gainsboro;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   
@@ -44,7 +45,7 @@ html {
   }
   
    #highlight {
-    background-color: rgba(1, 23, 41, 0.737);
+    background-color: rgba(13, 51, 82, 0.737);
   }
 
 figcaption {
@@ -59,4 +60,9 @@ figcaption {
 
   h1 {
     color:#444;
+  }
+
+  figcaption {
+    color: #444;
+    font-size: 20px;
   }
