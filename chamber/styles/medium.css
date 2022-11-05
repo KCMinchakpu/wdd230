@@ -109,3 +109,13 @@
 		grid-row: 2;
 	}
 }
+
+/*------JOIN FORM -----*/
+	main.joinForm{
+		padding: 4rem;
+	}
+
+	main.joinForm h2{
+		font-size: 2em;
+	}
+}

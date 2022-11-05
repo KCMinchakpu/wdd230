@@ -53,35 +53,33 @@
         <li><a href="#">Contact</a></li>    
     </ul>
 </nav>
-<main class="content">
-        <main class="joinForm">
-            <h2>Join Abuja Municipal Chamber of Commerce</h2>
-            <form method="get" action="thanks.html">
-              <fieldset>
-                  <legend>Applicant Information</legend>
-                  <label class="top">First Name* <input type="text" name="fname" required></label>
-                  <label class="top">Last Name* <input type="text" name="lname" required></label>
-                  <label class="top">Business position title <input type="text" name="businessTitle" title="(at least 7 characters)" pattern="[-A-Za-z0-9\s]{7,}"><span class="info2">Accepts only alpha characters, hyphens, and spaces with a minimum of 7 characters</span></label>
-                  <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                  <label class="top">Cell Phone* <input type="text" name="phone" placeholder="1235551234" required></label>
-                  <label class="top">Business Name <input type="text" name="businessName"></label>
-              </fieldset>  
-              <fieldset>
-                  <legend>Membership level</legend>
-                  <label class="sbs"><input type="radio" name="membership" value="NP" class="NP">NP Membership (Free)</label>
-                  <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership (10, 000 Naira)</label>
-                  <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership (20, 000 Naira)</label>
-                  <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership (40, 000 Naira)</label>
-                  <p class="moreinfo">For more information about membership benefits, see the membership information page.</p>
-              </fieldset>
-              <fieldset>
-                  <legend>Business Description</legend>
-                  <div>Briefly describe your business:</div>
-                  <label class="top"><textarea name="description" rows="10" cols="38"></textarea></label>
-              </fieldset>
-              <input type="submit" value="Join Now" class="submitBtn">
-            </form>
-        </main>  
-		
+<!-- CONTENT HERE -->
+    <main class="joinForm">
+        <h2>Join our Chamber of Commerce</h2>
+        <form method="get" action="thanks.html">
+          <fieldset>
+              <legend>Applicant Information</legend>
+              <label class="top">First Name* <input type="text" name="fname" required></label>
+              <label class="top">Last Name* <input type="text" name="lname" required></label>
+              <label class="top">Business position title <input type="text" name="businessTitle" title="(at least 7 characters)" pattern="[-A-Za-z0-9\s]{7,}"><span class="info2">Accepts only alpha characters, hyphens, and spaces with a minimum of 7 characters</span></label>
+              <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+              <label class="top">Cell Phone* <input type="text" name="phone" placeholder="1235551234" required></label>
+              <label class="top">Business Name <input type="text" name="businessName"></label>
+          </fieldset>  
+          <fieldset>
+              <legend>Membership level</legend>
+              <label class="sbs"><input type="radio" name="membership" value="NP" class="NP">NP Membership (no fee)</label>
+              <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership (fee $50)</label>
+              <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership (fee $100)</label>
+              <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership (fee $200)</label>
+              <p class="info2">For more information about membership benefits, see the membership information page.</p>
+          </fieldset>
+          <fieldset>
+              <legend>Business Description</legend>
+              <div>Briefly describe your business:</div>
+              <label class="top"><textarea name="description" rows="10" cols="38"></textarea></label>
+          </fieldset>
+          <input type="submit" value="Join Now" class="submitBtn">
+        </form>
 </body>
 </html>
