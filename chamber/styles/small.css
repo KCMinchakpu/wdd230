@@ -477,7 +477,7 @@ picture img {
 /*----------- FORM --------------*/
 form fieldset {
     margin: 2rem auto;
-    border: 1px solid #445ba9;
+    border: 1px solid #444;
     border-radius: 10px;
     padding: .5rem 2%;
 	width: 94%;
@@ -546,7 +546,7 @@ form .info2{
 main.joinForm {
 	max-width: 64rem;
 	margin: 1rem auto;
-	background-color: rgba(231, 230, 230, 0.5);
+	background-color: #E1D9D1;
 	display: block;
 
 }
