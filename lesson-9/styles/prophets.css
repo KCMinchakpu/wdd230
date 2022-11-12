@@ -1,40 +1,39 @@
-
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 body {
+  background: #eeeff0;
   font-size: 16px;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+  
 header,
 main,
 footer {
   margin: 1rem;
   position: relative;
 }
-
-main {
-  margin-left: 2rem;
-	align-content: center;
-
-}
+  
 
 h1 {
-  text-align: center;
-  color: white;
+  color: #444;
   padding: 1rem;
-
+  text-align: center;
 }
+  
 h2 {
-	color:gainsboro;
-	text-align: center;
+  color: #08415C;
 }
 
-p{
-	color:orange;
-	text-align: center;
-	margin-top: -5px;
+p {
+  margin: 0;
 }
 
+  
+main {
+  margin-left: 2rem;
+  text-align: center;
+  
+}
+
+ 
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -42,9 +41,9 @@ p{
   
 section {
   margin: 0.25rem;
-  padding: 0.35rem;
+  padding: 0.1rem;
   border-radius: 15px;
-  background-color: white;
+  background-color: #444;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,4 +65,5 @@ footer {
   border-top: 1px solid white;
   padding: 2rem;
 }
+
 
