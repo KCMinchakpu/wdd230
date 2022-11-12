@@ -60,6 +60,15 @@ main {
 
 }
 
+.grid-container {
+  display: grid;
+  row-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
