@@ -18,25 +18,12 @@ main {
 
 }
 
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 20%;
-  margin-right:5px;
-  height:200px;
-	border: medium;
-	border-color: darkgray;
-	align-items: center;
-  }
+h1 {
+  text-align: center;
+  color: white;
+  padding: 1rem;
 
-/* Clear floats after the columns */
-.card:after {
-  content: "";
-  display: table;
-  clear: both;
 }
-
-h1 {text-align: center;}
 h2 {
 	color:gainsboro;
 	text-align: center;
@@ -47,3 +34,36 @@ p{
 	text-align: center;
 	margin-top: -5px;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+  
+section {
+  margin: 0.25rem;
+  padding: 0.35rem;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  
+img {
+  width: auto;
+  max-width: px;
+  height: 200px;
+  margin: 1rem 0;
+  box-shadow: 0 0 30px #777;
+  
+}
+
+footer {
+  text-align: center;
+  color: white;
+  border-top: 1px solid white;
+  padding: 2rem;
+}
+
