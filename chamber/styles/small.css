@@ -561,3 +561,118 @@ form textarea {
 	padding: 10px;
 }
 
+/*----------- DIRECTORY CSS --------------*/
+
+.menu2 {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #444;
+	text-align: center;
+	width:700px
+}
+
+.menu2 button {
+	padding: 1rem;
+}
+
+
+article,
+section2 {
+	margin: 0.75rem;
+}
+
+section2 {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #444;
+	box-shadow: 5px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section2 {
+	display: flex;
+	align-items: center;
+}
+
+.grid section2 {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section2 > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section2 > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section2 img {
+	display: none; /* smaller viewports only */
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section2 a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+img {
+	height: 150px;
+	max-width: 100%; 
+	padding-top: 10px;
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
+
+maindirectory {
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	max-width: 700px;
+	background-color: #eee;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+h3 {
+	color:gainsboro;
+}
+
+p {
+	
+	color:orange;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color:yellow;
+}
