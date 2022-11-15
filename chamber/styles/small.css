@@ -561,31 +561,118 @@ form textarea {
 	padding: 10px;
 }
 
-/*----------- DIRECTORY CSS --------------*/
+/******* DIRECTORY PAGE ********/
 
-.menu2 {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color: #444;
+.menu {
 	text-align: center;
-	width:700px
 }
-
-.menu2 button {
+.menu button {
 	padding: 1rem;
+	border: 2.5px solid rgb(1, 14, 36);
 }
 
-
-article,
-section2 {
-	margin: 0.75rem;
+#grid img, #list img{
+	width: 20px;
+	height: 20px;
+    
 }
 
-section2 {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
+/*-------- GRID & LIST STYLING--------*/
+
+.direct {
+	margin: 1rem;
+	position: relative;
+	background-color:#444;
+}
+
+.directory {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	align-items: center;
+	line-height: 1.5rem;
+}
+
+.directory section {
+	margin: 1rem;
+	padding: 0.35rem;
+	border-radius: 15px;
 	background-color: #444;
-	box-shadow: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+.directory h3 {
+	display: none;
+}
+	
+.directory img {
+	width: auto;
+	max-width: 90%;
+	height: 150px;
+	margin: 1rem 0;
+	box-shadow: 0 0 30px #777;
+}
+   
+.directory  p{
+	line-height: 1rem;
+	font-size: .85rem;
+} 
+  /* buttons*/
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	align-items: center;
+	
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+
+}
+
+.list section {
+	display: flex;	
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: column;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	/* text-align: left; */
+	flex-flow: row;
+}
+
+.list section img {
+	display: none; 
+}
+
+.grid section h3 {
+	display: none; 
+}
+
+.list section h3 {
+	font-size: .85rem;
+
+}
+.list section p {
+	font-size: .85rem;
+}
+.list section:nth-child(odd) {
+	background-color: #d9f6f4;
+}
