@@ -3,7 +3,7 @@
 // const weatherIcon = document.querySelector('#weather-icon');
 // const captionDesc = document.querySelector('figcaption');
 // const wind = document.querySelector('.wind')
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Abuja&appid=51537de831b6bf7110e51babc5e1398f'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Abuja&appid=51537de831b6bf7110e51babc5e1398f&units=metric'
 const weather = document.querySelector('.weatherInfo')
 
 
