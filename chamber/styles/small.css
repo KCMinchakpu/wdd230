@@ -563,10 +563,10 @@ form textarea {
 
 /******* DIRECTORY PAGE ********/
 
-.menu2 {
+.menu {
 	text-align: center;
 }
-.menu2 button {
+.menu button {
 	padding: 1rem;
 	border: 2.5px solid orange;
 }
