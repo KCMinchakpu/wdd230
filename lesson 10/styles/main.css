@@ -1,6 +1,7 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     font-size: 18px;
+    
 
 }
 
@@ -8,4 +9,5 @@ main {
     text-align: center;
     background-color: rgb(24, 53, 53);
     padding: 1rem;
+    color:gainsboro;
 }
