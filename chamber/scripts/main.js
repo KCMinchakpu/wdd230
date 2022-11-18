@@ -27,7 +27,7 @@ if (today < 1 || today > 2) {
     banner.remove();
 }  
 
-/*** DIRECTORY PAGE *******/
+/*** DIRECTORY *******/
 
 const displayDirectory = (dataDirectory) => {
     dataDirectory.companies.forEach (
@@ -76,7 +76,7 @@ async function getDirectory() {
     getDirectory();
   }
 
-/*------------Button ----------------*/
+/*------------Button Listeners ----------------*/
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
