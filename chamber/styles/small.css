@@ -563,7 +563,7 @@ form textarea {
 
 /******* DIRECTORY PAGE ********/
 
-main#directory{
+.directory{
     display: block;
     margin:0 auto;
     max-width:100%;
@@ -573,8 +573,8 @@ main#directory{
 /******* DIRECTORY GRID ********/
 div.dirgrid{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-	max-width:1350px;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	max-width:100%;
 	text-align: center;
 }
 
