@@ -643,14 +643,13 @@ margin-top: 25px;
 
 /* GRID/LIST BUTTONS */
 #btnContainer{
-margin: 18px auto 20px auto;
 text-align: center;
 font-size: 18px;
 
 }
 
 #listbtn{
-margin-right: 20px;
+margin-right: 25px;
 }
 
 .btn:hover {
@@ -666,7 +665,8 @@ background-color: #444;
 .btn {
 border: none;
 outline: none;
-padding: 10px;
+padding: 20px;
 background-color:#444;
 cursor: pointer;
+
 }
