@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Assignment portal for Kevin Cross Minchakpu in WDD 230: 
+        Web Frontend Development at Brigham Young University - Idaho"/>
+        <title>WDD 230: W05 and 06 Assignment</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/small.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="styles/large.css" media="screen">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="shortcut icon" href="favicon.ico">
+    
+    </head>
+    
+<body>
+    <!-- Main Container -->
+    <header>
+        <div class="meeting">
+            <h2 class="eliakim">Come join us for the chamber meet and greet Wednesday at 10:00 a.m. WAT</h2>
+        </div>
+        <section class="headertop">
+            <div class="logo">
+                <picture>
+                    <img src="images/abujalogo.webp" alt="Logo of Abuja Municipal Chamber of Commerce">
+                </picture>
+                <section class="headings">
+                    <h1>Abuja Municipal</h1>
+                    <h2 class="eliora">Chamber of Commerce</h2>
+                </section>
+            </div>
+            
+            <div class="social">
+                <section class="media">
+                    <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-linkedin"></a>
+            </section>
+				<div>      
+            <p class="date">Today: <span id="datetime"></span></p><script>var dt = new Date();
+					document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
+        </div>
+            </header>
+    <!-- NAVIGATION HERE -->
+    <nav>
+		<button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+			<li><a href="join.html">Join</a></li> 
+            <li><a href="contact.html">Contact</a></li>    
+        </ul>
+    </nav>
+     <main class="content">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="email">Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="someone@gmail.com">
+              <label for="country">Country</label>
+                        
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        
+    </main>     
+<!-- Main Container Ends -->		
+
+			<!-- Footer Container -->
+<footer>
+        <section class="logofooter">
+            <picture>
+                <img src="images/abujalogo.webp" alt ="Abuja Municipal Chamber of Commerce logo">
+            </picture>
+        </section>
+        <section  class="location">
+            <div>Abuja Municpal Chamber of Commerce</div>
+            <div>45 Accra Street, Wuse Zone 5, Abuja 950002</div>
+        </section>
+        <section class="contact">
+            <div>info@amcc.com</div>
+            <div>+234(0)8068-1332-69</div>
+            <div><a href="https://goo.gl/maps/NjH6ai9eiHeP6eoo6"><img src="images/amcc.png" alt="Abuja Municipal chamber location"></a>Location Map</div>
+        </section>
+        <section class="author">   
+            <div>&copy; <span id="year"></span> Abuja Municapl Chamber of Commerce | Kevin Cross Minchakpu | WDD230 Project | <span id="lastupdated"></span></div>
+        </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+</body>
+</html>
