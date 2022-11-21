@@ -705,4 +705,30 @@ input[type=text], select, textarea {
 	padding: 20px;
 	color:#24292f;
 	font-weight: bold;
+	width: 100%;
+  }
+
+  /* Create two columns that floats next to each other */
+.column {
+	float: left;
+	padding: 15px;
+	width: 50%;
+  }
+  .row {
+	width: 100%;
+
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  p {
+	color:#444;
+  }
+
+  .content {
+	width: 100%;
   }
