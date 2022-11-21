@@ -739,8 +739,9 @@ input[type=text], select, textarea {
   }
 
   .general {
-	float: right;
+	align-items: flex-end;
 	border: solid #444;
 	border-width: 2px;
+	margin-top: 20px;
 	}
 
