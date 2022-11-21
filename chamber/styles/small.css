@@ -715,20 +715,4 @@ input[type=text], select, textarea {
 	width: 50%;
   }
   .row {
-	width: 100%;
-
-
-  }
-  /* Clear floats after the columns */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  p {
-	color:#444;
-  }
-
-  .content {
-	width: 100%;
-  }
+	width: 100%;}
