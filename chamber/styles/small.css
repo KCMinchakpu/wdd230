@@ -671,11 +671,17 @@ div.dirgrid section{
   }
 /* CONTACT FORM */
 
+.kike {
+display: grid;
+grid-template-columns: 3fr 1fr;
+
+
+}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
 	width: 100%; /* Full width */
 	padding: 12px; /* Some padding */ 
-	border: 1px solid #444; /* Gray border */
+	border: 1px solid #ccc; /* Gray border */
 	border-radius: 4px; /* Rounded borders */
 	box-sizing: border-box; /* Make sure that padding and width stays in place */
 	margin-top: 6px; /* Add a top margin */
@@ -701,18 +707,40 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
 	border-radius: 5px;
-	background-color: #f2f2f2;
+	background-color: #444;
 	padding: 20px;
-	color:#24292f;
-	font-weight: bold;
-	width: 100%;
   }
 
-  /* Create two columns that floats next to each other */
-.column {
+  .mail {
+	width: 70%;
 	float: left;
-	padding: 15px;
-	width: 50%;
+	margin-bottom: 20px;
   }
-  .row {
-	width: 100%;}
+  .banner {
+	background-color: #01201e;
+	color: gainsboro;
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	float: left;
+	margin-left: 0px;
+	}
+ .banner h1 {
+	justify-content: center;
+  }
+
+  h2, h3 {
+	color: #444;
+	font-weight: bold;
+  }
+  p {
+	color: #444;
+  }
+
+  .general {
+	float: right;
+	border: solid #444;
+	border-width: 2px;
+	}
+
