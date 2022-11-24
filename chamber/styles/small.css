@@ -576,70 +576,100 @@ form textarea {
 
 /******* DIRECTORY PAGE ********/
 
-.menu1 {
-	text-align: center;
-}
-.menu1 button {
-	padding: 1rem;
-	border: 2.5px solid rgb(41, 97, 194);
+main#directory{
+    display: block;
+    margin:0 auto;
+    max-width:1350px;
+    text-align: center;
+}  
+/* ------GRID----- */
+
+div.dirgrid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+        max-width:1350px;
+        text-align: center;
 }
 
-#grid img, #list img{
-	width: 20px;
-	height: 20px;
-    
+div.dirgrid section{
+    margin: 1rem;
+    padding: 1rem 1.5rem 0.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #555;
+    /* justify-items: center; */
 }
 
-/*-------- GRID AND LIST STYLING--------*/
-
-.dir1 {
-	margin: 1rem;
-	position: relative;
-	background-color:rgba(231, 230, 230, 0.5);
+.dirgrid section p{
+    margin: 0.5rem 0 0.5rem 0;
 }
 
-.directory {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-	align-items: center;
-	line-height: 1.5rem;
+.dirgrid section p.name{
+    display: none;
 }
 
-.directory section {
-	margin: 1rem;
-	padding: 0.35rem;
-	border-radius: 15px;
-	background-color:white;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.dirgrid section img{
+    margin-bottom: 15px;
+}
+/* -----LIST------ */
+
+.dirlist section{
+    display: block;
+    text-align: center;
+    line-height:1rem;
+    padding: 0.05rem;
+
+} 
+
+.dirlist img{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom:0;
 }
 
-.directory h3 {
-	display: none;
-}
-	
-.directory img {
-	width: auto;
-	max-width: 90%;
-	height: 100px;
-	margin: 1rem 0;
-	box-shadow: 0 0 30px #777;
-}
-   
-.directory p {
-	line-height: 1rem;
-	font-size: .85rem;
+.dirlist section:nth-child(even){
+    background-color: #fff;
 }
 
- /* buttons*/
- .grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-	align-items: center;
-	
+.dirlist section:nth-child(9){
+    margin-bottom: 25px;
 }
 
+.dirlist section:nth-child(1){
+    margin-top: 25px;
+}
+
+/* GRID/LIST BUTTONS */
+#btnContainer{
+    margin: 18px auto 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+#listbtn{
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+  }
+
+.btn.active{
+    color: #fff;
+    background-color: #666;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
 
 
 
