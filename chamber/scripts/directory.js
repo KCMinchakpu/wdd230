@@ -39,8 +39,8 @@ fetch(requestURL)
     a.setAttribute('href', '#');
     // Add/append the section(card) with the h2 element
     url.appendChild(a)
-    brand.appendChild(name);
     brand.appendChild(logo);
+    brand.appendChild(name);
     brand.appendChild(address);
     brand.appendChild(phoneNumber);
     brand.appendChild(url);
