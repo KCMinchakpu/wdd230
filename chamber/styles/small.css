@@ -703,7 +703,7 @@ input[type=text], select, textarea {
   }
 
   h2, h3 {
-	color: #444;
+	color: gainsboro;
 	font-weight: bold;
   }
   p {
