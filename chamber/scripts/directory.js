@@ -20,12 +20,14 @@ fetch(requestURL)
     let logo = document.createElement('img');
     let name = document.createElement('p');
     let address = document.createElement('p');
+    let email = document.createElement('p');
     let url = document.createElement('p');
     let a = document.createElement('a')
     let phoneNumber = document.createElement('p');
     let level = document.createElement('p');
     name.textContent = company.name;
     address.textContent = company.address;
+    email.textContent = company.email;
     a.textContent = company.website;
     phoneNumber.textContent = company.phoneNumber;
     level.textContent = company.level;
