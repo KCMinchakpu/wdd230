@@ -202,7 +202,7 @@ main section {
 	color:gainsboro;
 	/* border: 1px solid black; */
 	margin-bottom: 1rem;
-}
+	color:gainsboro;
 
 main section div {
 	border: 1px solid gray;
