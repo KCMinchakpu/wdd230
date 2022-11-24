@@ -5,8 +5,8 @@
 		"phoneNumber":"080123456",
 		"email":"info@ajulius-berger.com",
 		"URL":"https://www.julius-berger.com/",
-		"image":"json/JSONimages/berger.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/berger.png",
+		"level": "Gold"
 		},
 	  {
         "name":"Jumia",
@@ -14,8 +14,8 @@
 		"phoneNumber":"080222333444",
 		"email":"info@myjumia.com",
 		"URL":"https://www.jumia.com.ng/",
-		"image":"json/JSONimages/jumia.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/jumia.png",
+		"level": "Gold"
 		},
 	  {
         "name":"Sheraton Hotels Abuja",
@@ -23,8 +23,8 @@
 		"phoneNumber":"08034265874",
 		"email":"info@sheratonabujahotel.com",
 		"URL":"https://sheratonabujahotel.com/",
-		"image":"json/JSONimages/AquaLink_Marine.webp",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/AquaLink_Marine.webp",
+		"level": "Gold"
 		},
 	  {
         "name":"SOUTECH Ventures",
@@ -32,8 +32,8 @@
 		"phoneNumber":"08133325870",
 		"email":"infol@soutechventures.com",
 		"URL":"https://www.soutechventures.com/",
-		"image":"json/JSONimages/soutech.jpeg",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/soutech.jpeg",
+		"level": "Bronze"
 		},
 	  {
         "name":"Hilinks Network LTD",
@@ -41,8 +41,8 @@
 		"phoneNumber":"09123548790",
 		"email":"hussainidotnet@gmail.com",
 		"URL":"https://hilinksnetworks.ng/",
-		"image":"json/JSONimages/hilinks.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/hilinks.png",
+		"level": "Gold"
 		},
 	  {
         "name":"Paradise Hills Estate",
@@ -50,8 +50,8 @@
 		"phoneNumber":"0806669994587",
 		"email":"ada@https://paradisehillsestate.com/",
 		"URL":"https://paradisehillsestate.com/",
-		"image":"json/JSONimages/paradise.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/paradise.png",
+		"level": "Silver"
 		},
 	  {
         "name":"Ubuntu Taxi Nigeria",
@@ -59,8 +59,8 @@
 		"phoneNumber":"081226655447",
 		"email":"info@ubuntutaxi.com",
 		"URL":"https://www.linkedin.com/in/ubuntu-taxi-nigeria-968547223/",
-		"image":"json/JSONimages/ubuntu.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/ubuntu.png",
+		"level": "Silver"
 		},
 	  {
         "name":"A & T Saloon and Spa",
@@ -68,8 +68,8 @@
 		"phoneNumber":"070698745666",
 		"email":"info@ambrosiatc.com",
 		"URL":"https://atsaloon.com/",
-		"image":"json/JSONimages/atsaloon.png",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/atsaloon.png",
+		"level": "Bronze"
 		},
 	  {
         "name":"Limi Hospital",
@@ -77,8 +77,8 @@
 		"phoneNumber":"+234 802 361 6686",
 		"email":"info@limihospital.com",
 		"URL":"https://limihospital.com/",
-		"image":"json/JSONimages/limi.jpeg",
-		"membershipLevel": 1
+		"icon":"json/JSONimages/limi.jpeg",
+		"level": 1
 		}
 ]
 }
