@@ -1,6 +1,6 @@
 // -----Store the resource, the URL of the JSON file into a const variable--------
 
-const requestURL = "chamber/json/data.json";
+const requestURL = "scripts/JSON/data.json";
 // const companies = document.querySelector('.companies');
 fetch(requestURL)
   .then(function (response) {
@@ -13,7 +13,7 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
 });
 
-//   Build the HTML of the member companies card using the createElement() and appendChild() methods on the document
+//   Build the HTML of the prophet card using the createElement() and appendChild() methods on the document
   function displayCompanies(company) {
     // Create elements to add to the document
     let brand = document.createElement('section');
@@ -39,10 +39,10 @@ fetch(requestURL)
     a.setAttribute('href', '#');
     // Add/append the section(card) with the h2 element
     url.appendChild(a)
-    brand.appendChild(logo);
     brand.appendChild(name);
+    brand.appendChild(logo);
     brand.appendChild(address);
-    brand.appendChild(phone);
+    brand.appendChild(phoneNumber);
     brand.appendChild(url);
     brand.appendChild(level);
   
@@ -67,4 +67,3 @@ fetch(requestURL)
     document.getElementById("listbtn").classList.remove("active");
     document.getElementById("gridbtn").classList.add("active")
   }
-
