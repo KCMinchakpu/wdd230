@@ -1,66 +1,72 @@
-const displayDirectory = (dataDirectory) => {
-  dataDirectory.companies.forEach (
-      company => {
-      let card = document.createElement('section');
-      let name = document.createElement('h3');
-      let logo = document.createElement('img');
-      let address = document.createElement('p');
-      let phoneNumber = document.createElement('p');
-      let URL = document.createElement('a');
-      
-      name.textContent = `${company.name}`;
+// -----Store the resource, the URL of the JSON file into a const variable--------
 
-      logo.setAttribute('src', company.image);
-      logo.setAttribute('alt', `Photo of ${company.name}`);
-      logo.setAttribute('loading', 'lazy');
-     
-      address.textContent = `${company.address}`;
-      phoneNumber.textContent = `${company.phoneNumber}`;
-      // URL.textContent = `${company.URL}`;
-      let linkWebsite = document.createTextNode(company.URL);
-      URL.appendChild(linkWebsite);
-      URL.href = company.URL;
-      URL.target = '_blank';
-      
-      card.appendChild(name);
-      card.appendChild(logo);
-      card.appendChild(address);
-      card.appendChild(phoneNumber);
-      card.appendChild(URL);
-      document.querySelector('article.directory').appendChild(card);
-    }
-  )
-}
+const requestURL = "chamber/json/data.json";
+// const companies = document.querySelector('.companies');
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    // ----Store the results of the converted response into an array-----
+  const companies = jsonObject['companies'];
+    // console.log(jsonObject);  // temporary checking for valid response and data parsing
+    companies.forEach(displayCompanies);
+});
 
-/*------ JSON application--------*/  
-async function getDirectory() {
-  const response = await fetch("./json/data.json");
-  if (response.ok) {
-    let data = await response.json();
-    console.log(data);
-    displayDirectory(data);
+//   Build the HTML of the prophet card using the createElement() and appendChild() methods on the document
+  function displayCompanies(company) {
+    // Create elements to add to the document
+    let brand = document.createElement('section');
+    let logo = document.createElement('img');
+    let name = document.createElement('p');
+    let address = document.createElement('p');
+    let email = document.createElement('p');
+    let url = document.createElement('p');
+    let a = document.createElement('a')
+    let phoneNumber = document.createElement('p');
+    let level = document.createElement('p');
+    name.textContent = company.name;
+    address.textContent = company.address;
+    email.textContent = company.email;
+    a.textContent = company.website;
+    phoneNumber.textContent = company.phoneNumber;
+    level.textContent = company.level;
+
+  
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. 
+    logo.setAttribute('src', company.icon);
+    logo.setAttribute('alt', 'Logo image');
+    logo.setAttribute('loading', 'lazy');
+    name.setAttribute('class', 'name');
+    a.setAttribute('href', '#');
+    // Add/append the section(card) with the h2 element
+    url.appendChild(a)
+    brand.appendChild(name);
+    brand.appendChild(logo);
+    brand.appendChild(address);
+    brand.appendChild(email);
+    brand.appendChild(phoneNumber);
+    brand.appendChild(url);
+    brand.appendChild(level);
+  
+    // Add/append the existing HTML div with the cards class with the section(card)
+    document.querySelector('#companies').appendChild(brand);
   }
-}
-const dir = document.querySelector('.directory');
-if (dir) {
-  getDirectory();
-}
 
-/*------------Button Listeners ----------------*/
+  // TOGGLE DIRECTORY VIEW
+  // Add active class to the current button (highlight it)
+  const display = document.querySelector("#companies");
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
+  function listView(){
+    display.classList.add("dirlist");
+    display.classList.remove("dirgrid");
+    document.getElementById("listbtn").classList.add("active");
+    document.getElementById("gridbtn").classList.remove("active");
+  }
 
-if (gridbutton || listbutton) {
-
-gridbutton.addEventListener("click", () => {
-display.classList.add("grid");
-display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", () => {
-display.classList.add("list");
-display.classList.remove("grid");
-});
-}
+  function gridView(){
+    display.classList.add("dirgrid");
+    display.classList.remove("dirlist");
+    document.getElementById("listbtn").classList.remove("active");
+    document.getElementById("gridbtn").classList.add("active")
+  }
