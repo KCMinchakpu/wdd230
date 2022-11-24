@@ -13,7 +13,7 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
 });
 
-//   Build the HTML of the prophet card using the createElement() and appendChild() methods on the document
+//   Build the HTML of the member companies card using the createElement() and appendChild() methods on the document
   function displayCompanies(company) {
     // Create elements to add to the document
     let brand = document.createElement('section');
