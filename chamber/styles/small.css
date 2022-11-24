@@ -244,7 +244,7 @@ footer {
     display: block;
 	padding-top: 1rem;
 	font-family: 'Roboto', 'Arial', serif;;
-    font-size: .7rem;
+    font-size: .9rem;
 	border-top: 2px solid white;
   }
 
@@ -469,11 +469,6 @@ text-align: justify;
 picture {
     display: block;
 }
-
-img {
-
-}
-
 
 /* Blurring placeholders images */
 
