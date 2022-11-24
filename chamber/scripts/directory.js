@@ -22,12 +22,12 @@ fetch(requestURL)
     let address = document.createElement('p');
     let url = document.createElement('p');
     let a = document.createElement('a')
-    let phone = document.createElement('p');
+    let phoneNumber = document.createElement('p');
     let level = document.createElement('p');
     name.textContent = company.name;
     address.textContent = company.address;
     a.textContent = company.website;
-    phone.textContent = company.phone;
+    phoneNumber.textContent = company.phoneNumber;
     level.textContent = company.level;
 
   
