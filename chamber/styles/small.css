@@ -643,7 +643,7 @@ div.dirgrid section{
 
 /* GRID/LIST BUTTONS */
 #btnContainer{
-    margin: auto auto 10px auto;
+    margin: auto auto auto auto;
     text-align: center;
     font-size: 18px;
 }
