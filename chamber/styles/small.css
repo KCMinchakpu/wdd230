@@ -580,14 +580,14 @@ main#directory{
 }  
 /* ------GRID----- */
 
-div.dirgrid{
+.dirgrid{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
         max-width:1350px;
         text-align: center;
 }
 
-div.dirgrid section{
+.dirgrid section{
     margin: 1rem;
     padding: 1rem 1.5rem 0.5rem 1.5rem;
     display: flex;
