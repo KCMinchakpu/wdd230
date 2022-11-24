@@ -44,6 +44,7 @@ fetch(requestURL)
     brand.appendChild(name);
     brand.appendChild(logo);
     brand.appendChild(address);
+    brand.appendChild(email);
     brand.appendChild(phoneNumber);
     brand.appendChild(url);
     brand.appendChild(level);
