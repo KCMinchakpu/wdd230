@@ -201,6 +201,7 @@ main section {
 	color:gainsboro;
 	/* border: 1px solid black; */
 	margin-bottom: 1rem;
+}
 
 main section div {
 	border: 1px solid gray;
@@ -209,10 +210,6 @@ main section div {
 	margin: 1rem 1rem;
 }
 
-p, h2, h3 {
-	
-	color:gainsboro;
-}
 .spotlight {
 	display: grid;
 
