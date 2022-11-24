@@ -193,6 +193,7 @@ main{
 	display: block;
 	padding: 1rem 0;
 	width: 100%;
+	color:gainsboro;
 }
 
 main section {
@@ -210,6 +211,10 @@ main section div {
 	margin: 1rem 1rem;
 }
 
+p, h2, h3 {
+	
+	color:gainsboro;
+}
 .spotlight {
 	display: grid;
 
@@ -702,18 +707,25 @@ input[type=text], select, textarea {
 	justify-content: center;
   }
 
-  h2, h3 {
-	color: #444;
-	font-weight: bold;
-  }
-  p {
-	color: #444;
-  }
-
+p.mail2 {
+	color: red;
+}
+ 
+h2.mail2 {
+	color:#444;
+}
   .general {
 	align-items: flex-end;
-	border: solid #444;
-	border-width: 2px;
 	margin-top: 20px;
 	}
+p.general {
+	color: #444;
+}
 
+h3.general {
+	color: #444;
+}
+
+h2.general {
+	color: #444;
+}
