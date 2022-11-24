@@ -3,8 +3,7 @@
         "name": "Julius Berger Nigeria ",
 		"address":"10 Shettima A. Munguno Crescent, Utako 900 108, Abuja",
 		"phoneNumber":"080123456",
-		"email":"info@ajulius-berger.com",
-		"URL":"https://www.julius-berger.com/",
+		"website":"https://www.julius-berger.com/",
 		"icon":"json/JSONimages/berger.png",
 		"level": "Gold"
 		},
@@ -12,26 +11,23 @@
         "name":"Jumia",
 		"address":"1st Floor No. 16 Gwani Street Off IBB Way Wuse Zone 4 Abuja",
 		"phoneNumber":"080222333444",
-		"email":"info@myjumia.com",
 		"URL":"https://www.jumia.com.ng/",
-		"icon":"json/JSONimages/jumia.png",
+		"website":"json/JSONimages/jumia.png",
 		"level": "Gold"
 		},
 	  {
         "name":"Sheraton Hotels Abuja",
 		"address":"# 1 Ladi Kwali Way, Central Area Maitama, Abuja",
 		"phoneNumber":"08034265874",
-		"email":"info@sheratonabujahotel.com",
 		"URL":"https://sheratonabujahotel.com/",
-		"icon":"json/JSONimages/AquaLink_Marine.webp",
+		"website":"json/JSONimages/AquaLink_Marine.webp",
 		"level": "Gold"
 		},
 	  {
         "name":"SOUTECH Ventures",
 		"address":"Kano Street After Shehu Shagari Mosque, Area 1, Abuja.",
 		"phoneNumber":"08133325870",
-		"email":"infol@soutechventures.com",
-		"URL":"https://www.soutechventures.com/",
+		"website":"https://www.soutechventures.com/",
 		"icon":"json/JSONimages/soutech.jpeg",
 		"level": "Bronze"
 		},
@@ -39,8 +35,7 @@
         "name":"Hilinks Network LTD",
 		"address":"B13 Othniel Plaza, Opposite NDE, Wuse Zone 1 Abuja",
 		"phoneNumber":"09123548790",
-		"email":"hussainidotnet@gmail.com",
-		"URL":"https://hilinksnetworks.ng/",
+		"website":"https://hilinksnetworks.ng/",
 		"icon":"json/JSONimages/hilinks.png",
 		"level": "Gold"
 		},
@@ -48,8 +43,7 @@
         "name":"Paradise Hills Estate",
 		"address":"Paradise Hills Estate Guzape, Asokoro Distric Abuja",
 		"phoneNumber":"0806669994587",
-		"email":"ada@https://paradisehillsestate.com/",
-		"URL":"https://paradisehillsestate.com/",
+		"website":"https://paradisehillsestate.com/",
 		"icon":"json/JSONimages/paradise.png",
 		"level": "Silver"
 		},
@@ -57,8 +51,7 @@
         "name":"Ubuntu Taxi Nigeria",
 		"address":"Abuja, Federal Capital Territory, Nigeria",
 		"phoneNumber":"081226655447",
-		"email":"info@ubuntutaxi.com",
-		"URL":"https://www.linkedin.com/in/ubuntu-taxi-nigeria-968547223/",
+		"website":"https://www.linkedin.com/in/ubuntu-taxi-nigeria-968547223/",
 		"icon":"json/JSONimages/ubuntu.png",
 		"level": "Silver"
 		},
@@ -66,8 +59,7 @@
         "name":"A & T Saloon and Spa",
 		"address":"7 Lingu crescent, Wuse II 900100, Abuja, Abuja FCT.",
 		"phoneNumber":"070698745666",
-		"email":"info@ambrosiatc.com",
-		"URL":"https://atsaloon.com/",
+		"website":"https://atsaloon.com/",
 		"icon":"json/JSONimages/atsaloon.png",
 		"level": "Bronze"
 		},
@@ -75,10 +67,9 @@
         "name":"Limi Hospital",
 		"address":"Plot 541 Constitution Avenue Airport Road., Central Business District, Abuja",
 		"phoneNumber":"+234 802 361 6686",
-		"email":"info@limihospital.com",
-		"URL":"https://limihospital.com/",
+		"website":"https://limihospital.com/",
 		"icon":"json/JSONimages/limi.jpeg",
-		"level": 1
+		"level": "Bronze"
 		}
 ]
 }
