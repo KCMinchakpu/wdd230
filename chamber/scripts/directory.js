@@ -1,6 +1,6 @@
 // -----Store the resource, the URL of the JSON file into a const variable--------
 
-const requestURL = "chamber/json/data.json";
+const requestURL = "scripts/JSON/data.json";
 // const companies = document.querySelector('.companies');
 fetch(requestURL)
   .then(function (response) {
@@ -13,7 +13,7 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
 });
 
-//   Build the HTML of the companies card using the createElement() and appendChild() methods on the document
+//   Build the HTML of the prophet card using the createElement() and appendChild() methods on the document
   function displayCompanies(company) {
     // Create elements to add to the document
     let brand = document.createElement('section');
