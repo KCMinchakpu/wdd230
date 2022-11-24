@@ -1,6 +1,6 @@
 // -----Store the resource, the URL of the JSON file into a const variable--------
 
-const requestURL = "scripts/JSON/data.json";
+const requestURL = "chamber/json/data.json";
 // const companies = document.querySelector('.companies');
 fetch(requestURL)
   .then(function (response) {
