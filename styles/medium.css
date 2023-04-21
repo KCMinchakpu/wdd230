@@ -7,5 +7,10 @@
         font-size: 22px;
                
       }
+    .header,
+    .footer {
+        border-radius: 10px;
+              
+        }
 
 }
