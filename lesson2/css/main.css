@@ -20,7 +20,7 @@ body {
     "footer";
 }
 
-header, nav, main, footer {
+header, main, footer {
 	border: 1px solid #333;
 	box-shadow: 0 0 10px #000;
 }
@@ -29,7 +29,15 @@ h1 {
   font-size: 60px;
   color: #fff;
   text-align: center;
+  margin-bottom: 2px;
   }
+
+  h3 { 
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    
+    }
 
   header {
     background-color: #36454F;
@@ -51,21 +59,19 @@ h1 {
     padding-top: 50px;
   }
   
-  .himage { text-align: center; }
+  .himage { 
+    text-align: center;
+    margin-left: 370px;
+   }
 .icon {width: 120px; height: auto; }
-.bimage { width: 200px; height: auto;}
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    padding: 5px;
+    padding: 20px;
     grid-area: main;
-  }
-  section {padding:7px;}
-  section p {
-    margin-left: 15px;
-  }
+}
   
   @media only screen and (min-width: 40em) {
     .gridarea {
@@ -81,10 +87,79 @@ main {
       grid-template-columns: 250px 1fr;
     }
     
-    main { grid-template-columns: 1fr 1fr; }
+    main { grid-template-columns: 1fr 1fr }
     
     h1 {font-size: 60px;}
     .icon {width: 120px; height: auto; }
     .bimage { width: 200px; height: auto;}
     
   }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+  }
+
+  .container2 {
+    padding: 0 30px;
+  }
+  .title {
+    color: grey;
+  }
+  
+  .button2 {
+    border: none;
+    display: inline-block;
+    padding: 15px 32px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+   
+    width: 100%;
+    font-size: 22px;
+    margin-bottom:10px;
+    margin-right:10px;
+    }
+
+    .sidebar h3 {
+      background-color: #347C17;
+      color: white;
+      margin-top: 0px;
+      height: 3%;
+      padding-top: 10px;
+      border-radius: 4px;
+    }
+    
+    h5 {color: yellowgreen;
+    text-align: center;
+    font-weight: normal;}
+    
+    p {font-size: 20px;
+    color: #444;
+    text-align: justify;
+    padding-bottom: 20px;
+    
+    
+    }
+    
+    img {align-self: center;
+    }
+    
+    
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;}
+    
+    h2 {font-size: 20px;
+      color: #444;
+      text-align: center;
+      margin-bottom:10px;
+      margin-top: 0px;
+      line-height: normal;
+      }
+
+      .image {
+        align-items: center;
+      }
