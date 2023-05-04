@@ -11,13 +11,13 @@ body {
 }
 
 .header {
-    background-color: #033e3e;
+  background-color: #033e3e;
 	display: blocik;
 	align-items: left;
 	padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
 }
 
 footer {
@@ -32,8 +32,10 @@ footer {
 }
 
 .logo {
-    height:90px;
-    width:90px;
+    height: auto;
+    width: auto;
+    float: left;
+    padding: 20px;
 }
 
 /* Add a black background color to the top navigation */
@@ -93,17 +95,13 @@ h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
-    margin-right: 350px;
-    float: right;
-    font-family: sans-serif;
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
     h2 {
         color: #fff;
-        text-align: center;
-        
-        float: right;
-        margin-right: 380px;
+        float: left;
         font-style: normal;
         font-weight: bold;
         font-family: Playfair Display;
