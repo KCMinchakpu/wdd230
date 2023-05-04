@@ -76,10 +76,6 @@ footer {
     display: none;
   }
 
-  .content {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
 
 footer {
 	display: flex;
@@ -99,11 +95,42 @@ h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
-    h2 {
-        color: #fff;
-        float: left;
-        font-style: normal;
-        font-weight: bold;
-        font-family: Playfair Display;
+  h2 {
+    color: #fff;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Playfair Display;
     }    
 
+  h3 {
+    color: #444;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 35px;
+      
+      
+    }
+ .home-headline {
+  text-align: center;
+  color: #444;
+  font-size: 50px;
+  margin-top: 20px;
+ }
+p {
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.main {
+  border: #333 solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.persona {
+  margin: 10px;
+}
