@@ -1,11 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
+
 body {
 	font-size: 16px;
 	font-family: Roboto, Helvetica, sans-serif;
+  margin: 40px;
+  background-color: #fff;
+  color: #444;
     
 
 }
@@ -22,13 +24,16 @@ body {
 
 footer {
 	background-color: #033e3e;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
+  color:gainsboro;
+	text-align: center;
 	padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header, footer {
+	border: 1px solid #333;
+	box-shadow: 0 0 10px #000;
 }
 
 .logo {
@@ -77,13 +82,7 @@ footer {
   }
 
 
-footer {
-	display: flex;
-    color:gainsboro;
-	padding: 1rem;
-	justify-content: space-between;
-	font-family: Arial, Helvetica, sans-serif;
-}
+
 
 h1 {
     color: #fff;
@@ -108,8 +107,6 @@ h1 {
     margin-bottom: 10px;
     margin-left: 50px;
     font-size: 35px;
-      
-      
     }
  .home-headline {
   text-align: center;
@@ -127,10 +124,59 @@ p {
 
 .main {
   border: #333 solid;
+  margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .persona {
   margin: 10px;
+}
+
+/* Design*/
+
+table {
+  border:1px solid black;
+  text-align: center;
+  width: 50%;
+  margin-left: 250px;
+  margin-bottom: 10px;
+  
+}
+
+ th, td {
+  border:1px solid black;
+  text-align: center;
+  width:40%;
+}
+
+
+.color {
+  background-color: #033E3E;
+}
+
+.color2 {
+  background-color: #2C3539;
+  
+}
+
+.color3 {
+  background-color: #50C878;
+  
+}
+
+.color, .color2, .color3 {
+  width: 40%;
+}
+
+.color4 {
+  background-color: #0C090A;
+}
+
+.color5 {
+  background-color: #FFFFFF;
+}
+
+li {
+  font-size: 20px;
 }
