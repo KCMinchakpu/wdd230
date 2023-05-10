@@ -1,0 +1,72 @@
+/* 64rem is also 1080px when basefont is 16px */
+
+@media only screen and (min-width: 64em) {
+
+nav ul li a {
+    padding: .5rem 1rem;
+}
+
+header img {
+    width: 100%;
+}
+
+.m {
+    letter-spacing: .1pt;
+    font-size: 1.3rem;
+}
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #fff;
+    color: #444;
+    
+
+}
+
+.header {
+  background-color: #033e3e;
+  display: flexbox;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  max-width: 960px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+}
+
+footer {
+    background-color: #033e3e;
+    color:gainsboro;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header, footer {
+    border: 1px solid #333;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.social {
+  margin-right: 1.5rem;
+  float: right;
+  margin-top: -100px;
+}
+
+.social svg {
+  width: 42px;
+  height: auto;
+}

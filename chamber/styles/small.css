@@ -1,0 +1,110 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  
+  body {
+    font-size: 16px;
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #fff;
+    color: #444;
+      
+  
+  }
+  
+  .header {
+    background-color: #033e3e;
+    display: flexbox;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    max-width: 960px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+  }
+  
+  footer {
+    background-color: #033e3e;
+    color:gainsboro;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  header, footer {
+      border: 1px solid #333;
+      box-shadow: 0 0 10px #000;
+  }
+  
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+
+
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 42px;
+	height: auto;
+}
+
+
+
+
+/* Navigation */
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+
+}
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+h1, h2 {
+    margin-left: 2vw;
+}
+
+
+
+
+
