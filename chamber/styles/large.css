@@ -70,12 +70,22 @@ header, footer {
   height: auto;
 }
 
+/* Navigation */
+.Mytopnav {
+  background-color: #000;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
 /* main content */
 
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
+  padding: 2px;
+  background-color: #fff;
   
 }
 
@@ -92,4 +102,50 @@ header, footer {
   content: "";
   display: table;
   clear: both;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.panel1, .panel2, .panel3 {
+  margin-left: 5px;
+  background-color: #444;
+  color:#fff;
+  padding: 10px;
+  height:200px;
+  margin-bottom: 5px;
+}
+
+.panel4 {
+  background-color: #444;
+  color:#fff;
+  padding: 10px;
+  height:410px;
+  margin-bottom: 5px;
+}
+
+.panel5 {
+  background-color: #444;
+  color:#fff;
+  padding: 10px;
+  height:210px;
+  margin-bottom: 5px;
+}
+
+.panel6 {
+  margin-right: 5px;
+  background-color: #444;
+  color:#fff;
+  padding: 10px;
+  height:620px;
+  margin-bottom: 5px;
+}
+
+.spotlight {
+  border: 2px solid grey;
+  height: 200px;
+  padding: 10px;
 }
