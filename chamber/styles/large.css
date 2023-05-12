@@ -26,13 +26,12 @@ body {
 
 }
 
-.header {
+header {
   background-color: #033e3e;
   display: flexbox;
   align-items: center;
   padding: 20px;
   justify-content: space-between;
-  max-width: 960px;
   margin-left: 10px;
   margin-right: 10px;
   height: 200px;
@@ -69,4 +68,28 @@ header, footer {
 .social svg {
   width: 42px;
   height: auto;
+}
+
+/* main content */
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
