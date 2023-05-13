@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
         <link rel="stylesheet" type="text/css" href="styles/large.css" media="screen">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     </head>
 <body>
@@ -39,12 +40,23 @@
         <path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;" />
         </g></g></svg></a>
         </div>
+        <div>      
+          <p class="date">Today is: <span id="datetime"></span></p><script>var dt = new Date();
+        document.getElementById("datetime").innerHTML=dt.toLocaleString();</script> 
+      </div>
         </header>
     <!--header ends-->
     <!--Navigation-->
-    <nav class="Mytopnav">
-        
-    </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="discover.html">Discover</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <!--main content-->
     <main class="content">
         <div class="row">
@@ -70,21 +82,25 @@
     
 <!-- Footer Container -->
 <footer>
+  <section class="footerlogo">
+    <picture>
+        <img src="images/acc-logo.png" alt ="Footer logo">
+    </picture>
+</section>
     <section  class="location">
     <div>Akwanga Chamber of Commerce</div>
-    <div>KA18 Jehovaha Avenue, Keffi Road, Akwanga, Nasarawa State.</div>
+    <div>KA18 Jehovah Avenue, Keffi Road,<br> Akwanga, Nasarawa State.</div>
     </section>
     <section class="contact">
-    <div>info@akwangaChamber.com</div>
+    <div>info@akwangachamber.com</div>
     <div>+234(0)8068-1332-69</div>
     <div><a href="https://goo.gl/maps/NjH6ai9eiHeP6eoo6"><img src="images/amcc.png" alt="Akwanga chamber location"></a>Location Map</div>
     </section>
     <section class="author">   
-        <div>&copy; <span id="year"></span> Akwanga Chamber of Commerce | Kevin Cross Minchakpu | WDD230 Project | <span id="lastupdated"></span></div>
+        <div>&copy; 2023</span> Akwanga Chamber of Commerce | Kevin Cross Minchakpu | WDD230 Project | <span id="lastupdated"></span></div>
     </section>
 </footer>
 <script src="scripts/main.js"></script>
-<script src="scripts/weatherapi.js"></script>
 
 </body>
 </html>
