@@ -14,3 +14,34 @@ function myFunction() {
   /*JS for date */
 
 document.getElementById("year").innerHTML = (new Date().toLocaleString());
+
+/* meetings message */
+
+const currentDay = new Date().getDay();
+
+// from sunday to saturday
+switch(currentDay) {
+  case 0:
+    meetings = '';
+    break;
+ case 1:
+    meetings = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m';
+    break;
+ case 2:
+    meetings = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m';
+    break;
+ case 3:
+    meetings = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m';
+    break;
+ case 4:
+   meetings = '';
+    break;
+ case 5:
+    meetings = '';
+    break;
+ case 6:
+    meetings = '';
+    break;
+}
+
+document.getElementById("meetings").innerHTML = meetings;
