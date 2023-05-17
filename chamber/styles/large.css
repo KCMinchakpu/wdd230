@@ -107,6 +107,7 @@ header, footer {
   overflow: hidden;
   margin-left: 10px;
   margin-right: 10px;
+  
 }
 
 .topnav a {
@@ -237,7 +238,7 @@ header, footer {
 	text-align: center;
 	border: 2px solid yellow;
 	padding: 10px;
-	margin-top: -40px;
+	margin-top: -70px;
 	margin-left: 450px;
   margin-right: 200px;
 	color:gainsboro;
@@ -348,4 +349,11 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
   width: 200px;
+}
+
+.eliakim {
+	color:orange;
+	text-align: center;
+  font-size: 16px;
+  margin-bottom: 0px;
 }
