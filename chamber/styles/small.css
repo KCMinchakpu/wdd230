@@ -377,3 +377,29 @@ h1 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/* Discover Page */
+
+.discover {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ddd;
+  color: #444;
+}
+
+.row-discover {
+  display: flex;
+}
+
+.column-discover {
+  float: left;
+  background-color: #333;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
