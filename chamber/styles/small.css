@@ -365,5 +365,15 @@ h1 {
   margin-bottom: 0px;
 }
 
+.weather{
+  text-align: center;
+  color: orange;
+  margin-bottom: 0px;
+  border-bottom: #ddd 1px solid;
+}
 
-
+.weatherInfo {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

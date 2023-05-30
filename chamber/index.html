@@ -71,7 +71,10 @@
                   The festival holds every December-January as an activity to mark Christmas and New Year 
                   celebration yearly. Come and Join Us. <a class="readmore" href="#">More Info</a></p>
               </div>
-              <div class="panel2">Weather</div>
+              <div class="panel2">
+                <h3 class="weather">Weather</h3>
+                <div class="weatherInfo"><h3>Current Condition</h3 class="weatherinfo"></div>
+              </div>
               <div class="panel3">
                 <a href="#" class="button">Join Us!</a>
                 <p>Discover how to Join the Akwanga Chamber of Commerce
@@ -80,7 +83,12 @@
             </div>
             <div class="column middle">
               <div class="panel4">
-                <img class="heroimg" src="images/farm.jpg" alt="hero image">
+                <picture class="heroimg">
+                  <source media="(min-width: 50%)" srcset="images/wdd230-hero.webp">
+                  <source media="(min-width: 25%)" srcset="images/wdd230-hero.webp">
+                  <img class="heroimg" src="images/wdd230-hero.webp" alt="hero image">
+              </picture>
+                
                   <div class="eliora">
                     <h1>Welcome to Akwanga</h1>
                   <h4 class="top2">Chamber of Commerce</h4>
@@ -149,6 +157,7 @@
     </section>
 </footer>
 <script src="scripts/main.js"></script>
+<script src="scripts/weatherapi.js"></script>
 
 </body>
 </html>
