@@ -45,3 +45,7 @@ switch(currentDay) {
 }
 
 document.getElementById("meetings").innerHTML = meetings;
+
+
+
+  

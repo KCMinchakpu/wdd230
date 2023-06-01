@@ -383,23 +383,67 @@ h1 {
 .discover {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #ddd;
+  background-color: #fff;
   color: #444;
+  padding: 20px;
+  display: grid;
 }
 
-.row-discover {
-  display: flex;
+.kpange {
+  text-align: center;
+  
 }
 
-.column-discover {
+.image {
+  border: 0;
+  display: block;
+  float:left;
+  margin-right: 10px;
+  margin-left: 120px;
+  
+}
+
+.kpange2 {
+  text-align: justify;
+  font-size: 17px;
+  margin-right: 300px;
+}
+
+.gbur {
+  margin-left: 220px;
+}
+
+/* Demographics */
+
+.demographics {
+  margin-top: 10px;
+}
+/* Float four columns side by side */
+.column-count {
   float: left;
-  background-color: #333;
-}
-
-.left {
-  width: 75%;
-}
-
-.right {
   width: 25%;
+  padding: 0 5px;
+}
+
+.row-count {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row-count:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {
+  font-size:150px;
+  color: orange;
 }
