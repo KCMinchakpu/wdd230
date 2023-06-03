@@ -383,7 +383,7 @@ h1 {
 .discover {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #ddd;
+  background-color: #fffff4;
   color: #444;
   padding: 20px;
   display: grid;
@@ -498,4 +498,20 @@ h1 {
 
 h2 {
   margin-bottom: 0px;
+}
+
+.btn-more {
+  border: none;
+  color: #fff;
+  background-color: #444;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.btn-more:hover {
+  background: orange;
+  color: black;
 }
