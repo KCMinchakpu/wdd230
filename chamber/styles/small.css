@@ -383,40 +383,88 @@ h1 {
 .discover {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #fff;
+  background-color: #ddd;
   color: #444;
   padding: 20px;
   display: grid;
+  
 }
 
-.kpange {
+#display{
+  background-color: #033e3e;
+  margin: auto ;
+  max-width: 700px;
+  color: gainsboro;
+  padding: 20px;
+  font-size: large;
+  width:400px;
   text-align: center;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.image {
-  border: 0;
-  display: block;
-  float:left;
-  margin-right: 10px;
-  margin-left: 120px;
-  
+.site-content {
+	width:960px;
+	margin:auto;
+	padding:0 10px;
 }
 
-.kpange2 {
+.row-discover:first-child {
+  margin-top: 50px;
+}
+
+.nightfall {
+ margin-bottom: 10px;
+ float: left;
+ margin-right: 30px;
+ filter: blur(0em);
+ transition: filter 0.1s;
+ max-width: 300px;
+ width: 100%;
+ height: auto;
+}
+
+.nightfall:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+
+.dusk {
+ height: 300px; 
+  margin-bottom: 3px; 
+}
+
+.dusk > div.description {
+  display: grid; 
+  vertical-align: left;
   text-align: justify;
-  font-size: 17px;
-  margin-right: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  color: #333;
+  margin-top: 3px;
+  margin-bottom: 5px;
 }
 
-.gbur {
-  margin-left: 220px;
+.nightfall > img {
+  display: block; 
+  margin: auto;
+}
+
+.rain {
+  text-align: center;
+  font-family: poppin 300;
+  color:#333;
 }
 
 /* Demographics */
 
 .demographics {
   margin-top: 10px;
+  margin-bottom: 19px;
+}
+
+.demog {
+  text-align: center;
+  margin-bottom: 10px;
 }
 /* Float four columns side by side */
 .column-count {
@@ -446,4 +494,8 @@ h1 {
 .fa {
   font-size:150px;
   color: orange;
+}
+
+h2 {
+  margin-bottom: 0px;
 }
