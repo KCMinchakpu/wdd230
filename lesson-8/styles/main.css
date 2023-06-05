@@ -72,7 +72,7 @@ td {
 .highlight {
     background-color: coral;
     font-weight: bold;
-}
+    }
 
 .title {
     font-family: Arial, Helvetica, sans-serif;
@@ -95,4 +95,9 @@ td {
 .fa-check {
     color: green;
     font-size: 30px;
+}
+
+.check {
+    font-size: 30px;
+    color: green;
 }
