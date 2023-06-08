@@ -551,7 +551,7 @@ h2 {
 
 .joinform {
   width: 85%;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 form fieldset {
   margin: 2rem auto;
@@ -688,4 +688,10 @@ form .info2{
   border: .5px solid gray;
   margin-left: 10px;
   margin-right: 10px;
+ }
+
+ .gift {
+  text-align: center;
+  color: #444;
+  margin-bottom: 5px;
  }
