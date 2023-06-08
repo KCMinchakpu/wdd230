@@ -515,3 +515,177 @@ h2 {
   background: orange;
   color: black;
 }
+
+/* Join Us Form */
+
+.joincontent {
+  background-color: #2C3539;
+
+}
+
+.sunset {
+  position: relative;
+  max-width: 1000x; 
+  margin-left: 2px; 
+  margin-right: 2px;
+}
+
+.sunset .inscribe {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; 
+}
+
+.jointitle {
+  text-align: center;
+}
+
+.joinpara {
+  text-align: center;
+  font-size: 18px;
+}
+
+.joinform {
+  width: 85%;
+  margin-left: 10px;
+}
+form fieldset {
+  margin: 2rem auto;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #444;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+font-weight: bold;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  /* color: #42b3ab; */
+  font-size: .8rem;
+}
+
+form label.top input {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;  
+}
+form label.sbs:hover {
+background-color: white;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #01201e;
+  color: white;
+  border-radius: 0.5rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 1rem 5%;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+  background-color: #800000;
+}
+
+form label.top input:required {
+  border-left: rgb(240, 147, 8) solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form textarea {
+	font-size: 1rem;
+	padding: 10px;
+}
+
+form .info2{
+	font-size: .8rem;
+}
+
+.joinForm {
+	max-width: 960;
+	margin-left: 10px;
+  margin-right: 10px;
+	background-color: #f8f8ff;
+	display: block;
+}
+
+.column2 {
+  float: left;
+}
+
+.join {
+  width: 960px;
+}
+
+.benefit {
+  width: 240px;
+}
+
+.paneljoin {
+  margin-right: 5px;
+ margin-top: 60px;
+  color:#fff;
+  padding: 10px;
+  height: 1100px;
+  margin-bottom: 5px;
+ 
+}
+
+.membership {
+  border: 2px solid grey;
+  background-color: #01201e;
+  height: 200px;
+  padding: 20px;
+  width: 200px;
+}
+
+.godiya {
+  background-color: #333;
+  color: greenyellow;
+  width: 600px;
+  text-align: center;
+  padding: 50px;
+  margin-left: 300px;
+  margin-top: 100px;
+  }
+
+.flake {
+  text-align: justify;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+ }
+
+ .thanks {
+  border: .5px solid gray;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
