@@ -13,11 +13,24 @@
         <h1>Latter-day Prophets</h1>
     </header>
     <main>
-        <div class="cards"></div>
+        <!-- Control buttons -->
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('nofilter')"> No Filter</button>
+    <button class="btn" onclick="filterSelection('birthplace')"> Idaho Born</button>
+    <button class="btn" onclick="filterSelection('nonusborn')"> Non-Us Born</button>
+    <button class="btn" onclick="filterSelection('length')"> 10+ Year Service</button>
+  </div>
+  <div class="container">
+    <div class="filterDiv birthplace">Idaho Born</div>
+    <div class="filterDiv length">10+ Year Service</div>
+    <div class="filterDiv nonus">Non Us Born</div>
+   </div>
+   <div class="cards"></div>
     </main>
     <footer>
        Kevin Cross Minchakpu  |  🏛BYU-Idaho  |  WDD 230
     </footer>
     <script src="scripts/prophets.js"></script>
+    <script src="scripts/filter.js"></script>
 </body>
 </html>

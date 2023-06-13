@@ -605,6 +605,7 @@ form input.submitBtn {
   margin: 0 0 1rem 5%;
   width: 100%;
   max-width: 15rem;
+  cursor: pointer;
 }
 
 form input.submitBtn:hover {
