@@ -14,12 +14,12 @@
     </header>
     <main>
       <!-- Filter links -->
-<div class="filters">
-    <button class="filterlinks" onclick="openFilter(event, 'allprophets')" id="defaultOpen">All Prophets</button>
-    <button class="filterlinks" onclick="openFilter(event, 'decade')">10+ Years Service</button>
-    <button class="filterlinks" onclick="openFilter(event, 'nonusborn')">Non Us Born</button>
-</div>  
-
+      <div class="filters">
+        <button class="filterlinks" onclick="openFilter(event, 'allprophets')" id="defaultOpen">All Prophets</button>
+        <button class="filterlinks" onclick="openFilter(event, 'decade')">10+ Years Service</button>
+        <button class="filterlinks" onclick="openFilter(event, 'nonusborn')">Non Us Born</button>
+        <button class="filterlinks" onclick="openFilter(event, 'idaho')">Born In Idaho</button>
+    </div>  
 <!-- Filter content -->
 <div id="allprophets" class="tabcontent">
     <h3 class="title">All Prophets</h3>
@@ -30,14 +30,23 @@
     <h3 class="title">10+ Years Service</h3>
     <div class="cards2"></div>
 </div>
-  
+
+<div id="nonusborn" class="tabcontent">
+    <h3 class="title">Non-US Born</h3>
+    
+</div>
+
+<div id="idaho" class="tabcontent">
+    <h3 class="title">Born In Idaho</h3>
+    
+</div>
 </main>
     
-    <footer>
+<footer>
        Kevin Cross Minchakpu  |  🏛BYU-Idaho  |  WDD 230
-    </footer>
+</footer>
     <script src="scripts/prophets.js"></script>
     <script src="scripts/filter.js"></script>
     <script src="scripts/decadeplus.js"></script>
-    </body>
+</body>
 </html>
