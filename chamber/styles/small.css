@@ -696,3 +696,43 @@ form .info2{
   color: #444;
   margin-bottom: 5px;
  }
+
+ /* Business Directory */
+
+.dirtitle {
+  text-align: center;
+}
+
+.dirpara {
+  text-align: center;
+  font-size: 18px;
+}
+
+hr {
+  width: 900px;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #444;
+	text-align: center;
+  width: 700px;
+  
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.btn2 {
+  cursor: pointer;
+}
+
+
+.active, .btn2:hover {
+  background-color: #033e3e;
+  color:#ddd;
+}

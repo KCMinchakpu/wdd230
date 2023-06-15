@@ -1,0 +1,76 @@
+{
+	"companies": [
+		{ 
+        "name": "Julius Berger Nigeria ",
+		"address":"10 Ahmed Abashiya Koto Street, Akwanga, Nasarawa State",
+		"phoneNumber":"080123456",
+		"website":"https://www.julius-berger.com/",
+		"imageurl":"json/JSONimages/berger.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Jumia",
+		"address":"1st Floor No. 16 Salem Plaza, Abuja Road, Akwanga, Nasarawa State",
+		"phoneNumber":"080222333444",
+		"website":"https://www.jumia.com.ng/",
+		"imageurl":"json/JSONimages/jumia.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Sheraton Hotels Akwanga",
+		"address":"# 1 Mike Abdul Crescent, Jos Road, Akwanga, Nasarawa State",
+		"phoneNumber":"08034265874",
+		"website":"https://sheratonabujahotel.com/",
+		"imageurl":"json/JSONimages/AquaLink_Marine.webp",
+		"level": "Gold"
+		},
+	  {
+        "name":"SOUTECH Ventures",
+		"address":"Parsy Estate, Low-Cost Road, Akwanga, Nasarawa State Road",
+		"phoneNumber":"08133325870",
+		"website":"https://www.soutechventures.com/",
+		"imageurl":"json/JSONimages/soutech.jpeg",
+		"level": "Bronze"
+		},
+	  {
+        "name":"Hilinks Network LTD",
+		"address":"Rinze Plaza, Jos Road, Akwanga, Nasarawa State",
+		"phoneNumber":"09123548790",
+		"website":"https://hilinksnetworks.ng/",
+		"imageurl":"json/JSONimages/hilinks.png",
+		"level": "Gold"
+		},
+	  {
+        "name":"Paradise Hills Estate",
+		"address":"Paradise Hills Estate GburGblon,Akwanga, Nasarawa State",
+		"phoneNumber":"0806669994587",
+		"website":"https://paradisehillsestate.com/",
+		"imageurl":"json/JSONimages/paradise.png",
+		"level": "Silver"
+		},
+	  {
+        "name":"Ubuntu Taxi Nigeria",
+		"address":"Wamba Road, Akwanga, Nasarawa State",
+		"phoneNumber":"081226655447",
+		"website":"https://www.linkedin.com/in/ubuntu-taxi-nigeria-968547223/",
+		"imageurl":"json/JSONimages/ubuntu.png",
+		"level": "Silver"
+		},
+	  {
+        "name":"A & T Saloon and Spa",
+		"address":"Opposite Skybase Computers, Wamba Road, Akwanga, Nasatrawa State.",
+		"phoneNumber":"070698745666",
+		"website":"https://atsaloon.com/",
+		"imageurl":"json/JSONimages/atsaloon.png",
+		"level": "Bronze"
+		},
+	  {
+        "name":"Limi Hospital",
+		"address":"Beside Unity Bank, Lafia Road, Akwanga, Nasarawa State",
+		"phoneNumber":"+234 802 361 6686",
+		"website":"https://limihospital.com/",
+		"imageurl":"json/JSONimages/limi.jpeg",
+		"level": "Bronze"
+	  }
+    ]
+   }
