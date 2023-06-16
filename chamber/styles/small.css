@@ -722,3 +722,6 @@ hr {
   align-content: center;
 }
 
+.fa fa-th-large, .fa fa-bars {
+ align-items: center;
+}
