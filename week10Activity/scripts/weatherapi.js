@@ -35,9 +35,8 @@ function  displayResults(weatherData) {
     let captionDesc = document.createElement('figcaption');
     let wind = document.createElement('p')
  
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    currentTemp.innerHTML = `The current temperature in Fairbanks, Alaska is <strong>${tF}F</strong>`;
-  
+    currentTemp.innerHTML = `The current temperature in Fairbanks, Alaska is <strong>${weatherData.main.temp.toFixed(0)}F</strong>`;
+      
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
         
