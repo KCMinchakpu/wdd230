@@ -57,7 +57,7 @@ function Companies(company) {
   // TOGGLE DIRECTORY VIEW
  
   // Get the elements with class="column"
-var elements = document.getElementsByClassName("card");
+var elements = document.getElementsByClassName("dirgrid");
 
 // Declare a loop variable
 var i;
