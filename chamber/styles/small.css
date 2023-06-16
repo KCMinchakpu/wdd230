@@ -714,3 +714,11 @@ hr {
 
 /* Grid and List */
 
+.btnview {
+  background-color: #444;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  align-content: center;
+}
+
