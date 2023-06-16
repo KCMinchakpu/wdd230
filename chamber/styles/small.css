@@ -708,20 +708,23 @@ form .info2{
   font-size: 18px;
 }
 
-hr {
-  width: 900px;
-}
 
 /* Grid and List */
 
+.btntrack {
+ background-color: #444;
+ width: 250px;
+ padding: 20px;
+ margin-left: 600px;
+ margin-bottom: 20px;
+}
 .btnview {
-  background-color: #444;
   align-items: center;
   padding: 20px;
-  width: 300px;
+  font-size: 20px;
   align-content: center;
 }
 
-.fa fa-th-large, .fa fa-bars {
- align-items: center;
+.fa fa-th-large:hover {
+  background-color: #033e3e;
 }
