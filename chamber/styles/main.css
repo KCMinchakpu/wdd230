@@ -1,0 +1,101 @@
+body {
+    background: #eeeff0;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+    
+  header,
+  main,
+  footer {
+    margin: 1rem;
+    position: relative;
+  }
+    
+  
+  h1 {
+    color: gainsboro;
+    padding: 1rem;
+    text-align: center;
+  }
+    
+  h2 {
+    color: gainsboro;
+  }
+  
+  p {
+    margin: 0;
+    color:orange;
+  }
+  
+    
+  main {
+    margin-left: 2rem;
+    text-align: center;
+    
+  }
+  
+   
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+    
+  section {
+    margin: 0.25rem;
+    padding: 0.01rem;
+    border-radius: 15px;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:darkgray solid;
+    box-shadow: 1rem;
+  }
+    
+    
+  img {
+    width: auto;
+    max-width: px;
+    height: 200px;
+    margin: 1rem 0;
+    box-shadow: 0 0 30px #777;
+    
+  }
+  
+  header {
+    text-align: center;
+    background-color: #08415C;
+    border-top: 1px solid white;
+    padding: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #08415C;
+    color: white;
+    border-top: 1px solid white;
+    padding: 2rem;
+  }
+  
+  /* Grid and List */
+
+.btntrack {
+    background-color: #444;
+    width: 200px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+   }
+   
+   .btnview {
+     font-size: 30px;
+     text-align: center;
+     }
+   
+     .fa:hover {
+       color:#ddd
+     }
+
+     .selected {
+        color:green;
+      }
