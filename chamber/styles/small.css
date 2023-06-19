@@ -744,10 +744,7 @@ form .info2{
   margin: 0;
   text-align: center;
 }
-@keyframes hovermain {
-  from {box-shadow: 0px 5px 8px #1a1a1a; margin: 0; }
-  to {box-shadow: 10px 15px 8px #1a1a1a; margin: -5px;}
-}
+
 #card-layout section:hover {
   animation-name: hovermain;
   animation-duration: .2s;
@@ -758,26 +755,26 @@ form .info2{
 #card-layout section h2 {
   margin-top: 0;
 }
-#gallery-main img {
+#directory-main img {
   max-width: 40%;
   margin-top: 5px;
 }
-.gallery {
+.directory {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2vw;
   margin: 1vw;
 }
 
-.gallery figure {
+.directory figure {
   margin: 0;
   box-shadow: 0px 5px 8px var(--black);
 }
-.gallery figure img {
+.directory figure img {
   width: 100%;
   height: auto;
 }
-.gallery figure figcaption {
+.directory figure figcaption {
   font-style: italic;
   text-align: center;
   font-size: 17px;

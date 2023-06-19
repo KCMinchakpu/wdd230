@@ -1,6 +1,6 @@
 // -----Store the resource, the URL of the JSON file into a const variable--------
 
-const requestURL = 'https://github.com/KCMinchakpu/data/companiesdata.json';
+const requestURL = 'chamber/data/companiesdata.json';
 
 
 fetch(requestURL)
