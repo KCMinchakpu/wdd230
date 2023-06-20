@@ -1,0 +1,49 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    }
+
+main {
+    text-align: center;
+    background-color: rgb(1, 40, 49);
+    padding: 1rem;
+    color:gainsboro;
+	width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+    box-shadow: 0 0 0 2rem;
+}
+
+.weatherInfo {
+    font-size: 19px;
+}
+
+footer {
+    width: 630px;
+    color: gainsboro;
+    margin-left: 400px ;
+    background-color: black;
+    padding 50px;
+    margin-top: 5px;
+    height: 100px;
+}
+
+.date {
+    font-size: 14px;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    list-style: none;
+    font-size: 16px;
+  }
