@@ -1,85 +1,76 @@
-// // select HTML elements in the document
-const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
-const wind = document.querySelector('.wind')
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-147.7164&lon=-2.15&appid=90fa45a4e5af0a15c20f1f7a0ed6ca96&units=imperial';
-const weather = document.querySelector('.weatherInfo')
+document.addEventListener("DOMContentLoaded", () => {
+    // select HTML elements in the document
+    const currentTemp = document.querySelector('#current-temp');
+    const weatherIcon = document.querySelector('#weather-icon');
+    const captionDesc = document.querySelector('figcaption');
+    // API url
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=51c9e7e908aa3baccb967c02e9950992";
+    // Fetch API and display
+    apiFetch(url).then(data => displayResults(currentTemp, weatherIcon, captionDesc, data));
+});
 
-async function apiFetch() {
+/**
+ * Fetches the data from given url
+ * @param {String} url API request url
+ * @returns JSON data object
+ */
+async function apiFetch(url) {
+    // JSON data
+    let data;
+
     try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(data); // this is for testing the call
-        displayResults(data);
-      } else {
-          throw Error(await response.text());
-      }
+        // Fetch url
+        const response = await fetch(url);
+        // Verify response
+        if (response.ok) {
+        // Get JSON data
+        data = await response.json();
+        // Catch error
+        } else {
+            throw Error(await response.text());
+        }
+    // Catch error
     } catch (error) {
         console.log(error);
+        return null;
     }
+    return data;
 }
-  
-apiFetch();
 
-/*------temperature ------****/
-
-/*display the temp obtained, the icon and the description*/
-
-function  displayResults(weatherData) {
-
-    let card = document.createElement('section');
-    let currentTemp = document.createElement('p');
-    let weatherIcon = document.createElement('img')
-    let captionDesc = document.createElement('figcaption');
-    let wind = document.createElement('p')
- 
-    currentTemp.innerHTML = `The current temperature in Fairbanks, Alaska is <strong>${weatherData.main.temp.toFixed(0)}F</strong>`;
-      
+/**
+ * Properly displays the weather info
+ * @param {HTMLElement} currentTemp HTML element to insert temperature
+ * @param {HTMLElement} weatherIcon HTML img
+ * @param {HTMLElement} captionDesc HTML figcaption
+ * @param {Object} weatherData JSON data object
+ */
+function displayResults(currentTemp, weatherIcon, captionDesc, weatherData) {
+    // Get the temperature in Fahrenheit without decimals
+    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+    // Create url for icon
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
-    const desc = weatherData.weather[0].description;
-        
+    // Create alt text
+    const desc = weatherData.weather[0].description.capitalize();
+    // Set properties
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = capital_letter(desc);
-
-  
-    const smH = weatherData.wind.speed;
-    if (tF <= 50 && smH > 3) {
-        const windC = windChill(tF,smH);
-        wind.textContent = `Wind Chill: ${windC.toFixed(1)}`;
-    }
-    else {
-        wind.textContent = `Wind Chill: N/A`;
-    }
-
-    // Add/append the section(card) with the h2 element
-    card.appendChild(currentTemp);
-    card.appendChild(weatherIcon);
-    card.appendChild(captionDesc);
-    card.appendChild(wind);
-
-    // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.weatherInfo').appendChild(card);
-  }
-
-
-/* capitalize the description */
-function capital_letter(words) {
-    
-    words = words.split(" ");
-
-    for (let i = 0; i < words.length; i++) {
-        words[i] = words[i][0].toUpperCase() + words[i].substr(1);
-    }
-    return words.join(" ");
+    captionDesc.textContent = desc;
 }
 
-
-/* calculate the wind chill*/
-function windChill(tF, smH) {
-    const f = 35.74 + 0.6215 * tF - 35.75 * (smH**0.16) + 0.4275 * tF * (smH**0.16)
-    return f
+/**
+ * Returns the same capitalized string
+ * @returns Capitalized String
+ */
+String.prototype.capitalize = function() {
+    // split the string by spaces
+    let arr = this.split(" ");
+    // capitalized array
+    let capArr = [];
+    // loop through every word
+    arr.forEach(word => {
+        // capitalize word
+        capArr.push(`${word.slice(0, 1).toUpperCase()}${word.slice(1)}`);
+    });
+    // join array and return
+    return capArr.join(" ");
 }
-
