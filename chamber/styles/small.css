@@ -365,17 +365,13 @@ h1 {
   margin-bottom: 0px;
 }
 
-.weather{
-  text-align: center;
-  color: orange;
-  margin-bottom: 0px;
-  border-bottom: #ddd 1px solid;
-}
 
 .weatherInfo {
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  line-height: 3px;
+  font-size: 16px;
 }
 
 /* Discover Page */
@@ -699,6 +695,10 @@ form .info2{
 
  /* Business Directory */
 
+ .dirtitle {
+  text-align: center;
+  margin-bottom: 40px;
+ }
  #gallery-main {
   max-width: 98vw !important;
   margin-left: auto;
@@ -709,6 +709,7 @@ form .info2{
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
+  margin-bottom: 150px;
 }
 #card-layout .article {
   margin: 0;
@@ -757,8 +758,12 @@ form .info2{
   padding: .2em;
 }
 
-
 [data-src] {
   min-width: 50px;
   min-height: 50px;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 0px;
 }
