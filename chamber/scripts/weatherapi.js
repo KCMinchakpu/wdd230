@@ -1,7 +1,8 @@
 // // select HTML elements in the document
 const currentTemp = document.querySelector('current-temp');
 const weatherIcon = document.querySelector('weather-icon');
-// const captionDesc = document.querySelector('figcaption');
+const windSpeed = document.querySelector('wind-speed');
+const captionDesc = document.querySelector('figcaption');
 const wind = document.querySelector('.wind')
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=8.9167&lon=8.3833&appid=8688add078badf05b39995d00843883d&units=metric'
 const weather = document.querySelector('.weatherInfo')
@@ -31,12 +32,13 @@ apiFetch();
 
     let card = document.createElement('section');
     let currentTemp = document.createElement('p');
-    let weatherIcon = document.createElement('img')
+    let windSpeed = document.createElement('p');
+    let weatherIcon = document.createElement('img');
     let captionDesc = document.createElement('figcaption');
     let wind = document.createElement('p')
  
     const tF = weatherData.main.temp.toFixed(0);
-    currentTemp.innerHTML = `The current temperature in Akwanga, Nigeria is <strong>${tF}F</strong>`;
+    currentTemp.innerHTML = `<strong>${tF}&degC</strong>`;
   
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
@@ -58,6 +60,7 @@ apiFetch();
     // Add/append the section(card) with the h2 element
     card.appendChild(currentTemp);
     card.appendChild(weatherIcon);
+    card.appendChild(windSpeed);
     card.appendChild(captionDesc);
     card.appendChild(wind);
 
@@ -76,7 +79,6 @@ function capital_letter(words) {
     }
     return words.join(" ");
 }
-
 
 /* calculate the wind chill*/
 function windChill(tF, smH) {

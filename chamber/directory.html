@@ -11,9 +11,9 @@
         <link rel="stylesheet" type="text/css" href="styles/small.css" media="screen">
         <link rel="stylesheet" type="text/css" href="styles/medium.css" media="screen">
         <link rel="stylesheet" type="text/css" href="styles/large.css" media="screen">
+        <script src="https://kit.fontawesome.com/cd47c3c73d.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="favicon.ico">
+         <link rel="icon" href="favicon.ico">
     
     </head>
 <body>
@@ -61,21 +61,13 @@
       </a>
     </div>
     <!--main content-->
-    <main id="directory-main">
-      <div>
-        <h1 class="dirtitle">Business Directory</h1>
-              <p class="dirpara">Our business directory provides the user base with the <br>
-                information they need to become aware of, contact, locate and otherwise interact with businesses.</p>
+    <main id="gallery-main">
+      <div id="toggle-buttons">
+        <i class="fas fa-th fa-3x" onclick="changeDisplayStyle('grid')"></i>
+        <i class="fas fa-list-ul fa-3x" onclick="changeDisplayStyle('list')"></i>
       </div>
-      <hr>
-       <div class="btn-view" id="btnviewContainer">
-          <button id="gridbtn" class="btnview active" onclick="changeDisplayStyle('grid')"><i class="fa fa-th-large"></i></button>
-          <button id="listbtn" class="btnview" onclick="changeDisplayStyle('list')"><i class="fa fa-bars"></i></button> 
-          </div>
-          
-          <h1 class="dir-title">The Businesses</h1>
-          <div id="card-layout" class="card-grid"></div>  
-          
+      <h1>Gallery</h1>
+      <div id="card-layout" class="card-grid"></div>
     </main>
     <!--main content ends-->
     

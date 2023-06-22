@@ -33,7 +33,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 200px;
   }
   
   header, footer {
@@ -700,52 +699,25 @@ form .info2{
 
  /* Business Directory */
 
-.dirtitle {
-  text-align: center;
+ #gallery-main {
+  max-width: 98vw !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
 }
-
-.dirpara {
-  text-align: center;
-  font-size: 18px;
-}
-
-
-/* Grid and List */
-
-.btn-view {
-  background-color: #444;
-  margin-left: 600px;
-  width: 130px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.btnview {
-  font-size: 30px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.btnview:hover {
-  background-color: #01201e;
-}
-
-.dir-title {
-  text-align: center;
-  font-size: 30px;
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 1em;
 }
-
 #card-layout .article {
   margin: 0;
   text-align: center;
 }
-
+@keyframes hovermain {
+  from {box-shadow: 0px 5px 8px #1a1a1a; margin: 0; }
+  to {box-shadow: 10px 15px 8px #1a1a1a; margin: -5px;}
+}
 #card-layout section:hover {
   animation-name: hovermain;
   animation-duration: .2s;
@@ -756,28 +728,37 @@ form .info2{
 #card-layout section h2 {
   margin-top: 0;
 }
-#directory-main img {
+#gallery-main img {
   max-width: 40%;
   margin-top: 5px;
 }
-.directory {
+.gallery {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2vw;
   margin: 1vw;
 }
-
-.directory figure {
+@keyframes hoverfigure {
+  from {box-shadow: 0px 5px 8px var(--black); margin: 0; }
+  to {box-shadow: 10px 15px 8px var(--black); margin: -5px; }
+}
+.gallery figure {
   margin: 0;
   box-shadow: 0px 5px 8px var(--black);
 }
-.directory figure img {
+.gallery figure img {
   width: 100%;
   height: auto;
 }
-.directory figure figcaption {
+.gallery figure figcaption {
   font-style: italic;
   text-align: center;
-  font-size: 17px;
-  padding: 10px;
+  font-size: 1.2em;
+  padding: .2em;
+}
+
+
+[data-src] {
+  min-width: 50px;
+  min-height: 50px;
 }
