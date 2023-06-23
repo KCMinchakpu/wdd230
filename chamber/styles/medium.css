@@ -1,19 +1,101 @@
-
-/* 35rem is also 560px when basefont is 16px */
-
+/* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 35rem) {
 
-nav button {display: none;}
 
-nav ul {
-    display:flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3);
-}
+    /*----------- BODY --------------*/
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+      }
+      .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+      }
+      .card-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        width: 515px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media only screen and (min-width: 915px) {
+        .card-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1em;
+        }
+      }
 
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0,0.3);
-}
+    
+    
+    /*----------- HEADER --------------*/
+    
+    header h1 {
+        font-size: 2em;
+      }
+      header img {
+        width: 125px;
+        height: 100px;
+      }
+    
+    /*----------- NAVIGATION --------------*/
+        nav ul {margin-left: 2%;}
+        nav ul li {width: auto;}
+        nav ul li:first-child a {border-left: 1px solid #444;}
+        nav ul li:last-child a {border-right: 1px solid #444;}
+        nav ul li a{padding: .5rem 1rem;}
+    
+        nav {
+            background-color: #444;
+          }
+          nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 96vw;
+            padding-left:2vw;
+            padding-right:2vw;
+          }
+          nav ul li {
+            align-self: center;
+            border-top: 0;
+            padding-left: 0;
+            padding-right: 0;
+          }
+          nav ul.hide {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          nav button {
+            display: none;
+          }
+    /*----------toggle buttons---------*/
+  #toggle-buttons {
+    text-align: right;
+  }
+  #toggle-buttons {
+    color: var(--light-blue);
+  }
+  .fa-list-ul {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .fa-th {
+    cursor: pointer;
+  }
+  #toggle-buttons {
+    display: block;
+  }
 
-}
+    /*----------- MAIN --------------*/
+    
+    main {
+        max-width: 875px;
+      }
+    
+    /*----------- FOOTER --------------*/
+        
+    } /* end of media query */

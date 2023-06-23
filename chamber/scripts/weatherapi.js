@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector('weather-icon');
 const windSpeed = document.querySelector('wind-speed');
 const captionDesc = document.querySelector('figcaption');
 const wind = document.querySelector('.wind')
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=8.9167&lon=8.3833&appid=8688add078badf05b39995d00843883d&units=metric&includewind_speed'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=8.9167&lon=8.3833&appid=8688add078badf05b39995d00843883d&units=metric&'
 const weather = document.querySelector('.weatherInfo')
 
 

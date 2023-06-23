@@ -700,7 +700,7 @@ form .info2{
   margin-bottom: 40px;
  }
  #gallery-main {
-  max-width: 98vw !important;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1vh;
@@ -730,7 +730,7 @@ form .info2{
   margin-top: 0;
 }
 #gallery-main img {
-  max-width: 40%;
+  max-width: 250px;
   margin-top: 5px;
 }
 .gallery {
@@ -745,14 +745,14 @@ form .info2{
 }
 .gallery figure {
   margin: 0;
-  box-shadow: 0px 5px 8px var(--black);
+  box-shadow: 0px 5px 8px #444;
 }
 .gallery figure img {
   width: 100%;
   height: auto;
 }
 .gallery figure figcaption {
-  font-style: italic;
+  font-style: normal;
   text-align: center;
   font-size: 1.2em;
   padding: .2em;
@@ -767,3 +767,4 @@ form .info2{
   text-align: center;
   margin-top: 0px;
 }
+
