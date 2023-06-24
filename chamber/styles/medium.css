@@ -34,10 +34,11 @@
   .card-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 1.5em;
     width: 515px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
   }
   @media only screen and (min-width: 915px) {
     .card-grid {
@@ -53,12 +54,12 @@
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       margin: 2%;
+      
     }
     #cards-container section {
       display: flex;
       flex-direction: row;
       cursor: pointer;
-      border: 1px solid #444;
     }
     #cards-container section:nth-of-type(2) {
       flex-direction: row-reverse;
@@ -71,6 +72,7 @@
     }
     #cards-container section div {
       width: 100%;
+      
     }
   }
 
