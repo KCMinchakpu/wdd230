@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     font-size: 16px;
     font-family: Roboto, Helvetica, sans-serif;
     margin: 40px;
-    background-color: #fff;
+    background-color: #CD7F32;
     color: #444;
    
   
@@ -683,10 +683,11 @@ form .info2{
   margin-bottom: 40px;
  }
  #gallery-main {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1vh;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: whitesmoke;
 }
 .card-grid {
   display: grid;
@@ -751,3 +752,40 @@ form .info2{
   margin-top: 0px;
 }
 
+.fas {
+  color: #01201e;
+  border: 2px solid whitesmoke;
+  padding: 10px;
+}
+
+/* Contact Page */
+
+.kike {
+  background-color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-heading {
+  background-color: #01201e;
+  margin: auto;
+  height: 70px;
+  padding: 10px
+}
+
+.responsive-two-column-grid {
+  display:block;
+}
+
+.responsive-two-column-grid > * {
+  padding:1rem;
+  column-gap: 2rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .responsive-two-column-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
